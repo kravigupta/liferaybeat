@@ -1,0 +1,5 @@
+= Liferaybeat Docs
+
+Welcome to the Liferaybeat documentation.
+
+

@@ -1,0 +1,4515 @@
+2016-11-27T00:28:11+05:30 INFO Home path: [/Users/ravi.gupta/workspace/src/github.com/packt/liferaybeat] Config path: [/Users/ravi.gupta/workspace/src/github.com/packt/liferaybeat] Data path: [/Users/ravi.gupta/workspace/src/github.com/packt/liferaybeat/data] Logs path: [/Users/ravi.gupta/workspace/src/github.com/packt/liferaybeat/logs]
+2016-11-27T00:28:11+05:30 INFO Setup Beat: liferaybeat; Version: 6.0.0-alpha1
+2016-11-27T00:28:11+05:30 DBG  Processors: 
+2016-11-27T00:28:11+05:30 DBG  Initializing output plugins
+2016-11-27T00:28:11+05:30 INFO Loading template enabled. Reading template file: /Users/ravi.gupta/workspace/src/github.com/packt/liferaybeat/liferaybeat.template.json
+2016-11-27T00:28:11+05:30 INFO Loading template enabled for Elasticsearch 2.x. Reading template file: /Users/ravi.gupta/workspace/src/github.com/packt/liferaybeat/liferaybeat.template-es2x.json
+2016-11-27T00:28:11+05:30 INFO Elasticsearch url: http://192.168.0.102:9200
+2016-11-27T00:28:11+05:30 INFO Activated elasticsearch as output plugin.
+2016-11-27T00:28:11+05:30 DBG  Create output worker
+2016-11-27T00:28:11+05:30 DBG  No output is defined to store the topology. The server fields might not be filled.
+2016-11-27T00:28:11+05:30 INFO Publisher name: ATPL-MAC-14.local
+2016-11-27T00:28:11+05:30 INFO Flush Interval set to: 1s
+2016-11-27T00:28:11+05:30 INFO Max Bulk Size set to: 50
+2016-11-27T00:28:11+05:30 DBG  create bulk processing worker (interval=1s, bulk size=50)
+2016-11-27T00:28:11+05:30 INFO liferaybeat start running.
+2016-11-27T00:28:11+05:30 INFO liferaybeat is running! Hit CTRL-C to stop it.
+2016-11-27T00:28:16+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T18:58:16.842Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 1,
+  "memoryUsage": 409184744,
+  "type": "liferaybeat"
+}
+2016-11-27T00:28:16+05:30 INFO Event sent
+2016-11-27T00:28:17+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:28:17+05:30 DBG  ES Ping(url=http://192.168.0.102:9200, timeout=1m30s)
+2016-11-27T00:28:17+05:30 DBG  Ping status code: 200
+2016-11-27T00:28:17+05:30 INFO Connected to Elasticsearch version 5.0.0-beta1
+2016-11-27T00:28:17+05:30 INFO Trying to load template for client: http://192.168.0.102:9200
+2016-11-27T00:28:17+05:30 DBG  HEAD http://192.168.0.102:9200/_template/liferaybeat  <nil>
+2016-11-27T00:28:17+05:30 INFO Template already exists and will not be overwritten.
+2016-11-27T00:28:17+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 16.304937ms.
+2016-11-27T00:28:17+05:30 DBG  send completed
+2016-11-27T00:28:21+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T18:58:21.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 2,
+  "memoryUsage": 409350184,
+  "type": "liferaybeat"
+}
+2016-11-27T00:28:21+05:30 INFO Event sent
+2016-11-27T00:28:22+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:28:22+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 11.301214ms.
+2016-11-27T00:28:22+05:30 DBG  send completed
+2016-11-27T00:28:26+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T18:58:26.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 3,
+  "memoryUsage": 409887576,
+  "type": "liferaybeat"
+}
+2016-11-27T00:28:26+05:30 INFO Event sent
+2016-11-27T00:28:27+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:28:27+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 64.586175ms.
+2016-11-27T00:28:27+05:30 DBG  send completed
+2016-11-27T00:28:31+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T18:58:31.842Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 4,
+  "memoryUsage": 409975568,
+  "type": "liferaybeat"
+}
+2016-11-27T00:28:31+05:30 INFO Event sent
+2016-11-27T00:28:32+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:28:32+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.089948ms.
+2016-11-27T00:28:32+05:30 DBG  send completed
+2016-11-27T00:28:36+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T18:58:36.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 5,
+  "memoryUsage": 409975568,
+  "type": "liferaybeat"
+}
+2016-11-27T00:28:36+05:30 INFO Event sent
+2016-11-27T00:28:37+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:28:37+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 23.203321ms.
+2016-11-27T00:28:37+05:30 DBG  send completed
+2016-11-27T00:28:41+05:30 INFO Non-zero metrics in the last 30s: libbeat.es.published_and_acked_events=5 libbeat.es.call_count.PublishEvents=5 libbeat.es.publish.read_bytes=2133 libbeat.es.publish.write_bytes=2539 libbeat.publisher.messages_in_worker_queues=5 libbeat.publisher.published_events=5
+2016-11-27T00:28:41+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T18:58:41.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 6,
+  "memoryUsage": 410355480,
+  "type": "liferaybeat"
+}
+2016-11-27T00:28:41+05:30 INFO Event sent
+2016-11-27T00:28:42+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:28:42+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.007494ms.
+2016-11-27T00:28:42+05:30 DBG  send completed
+2016-11-27T00:28:46+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T18:58:46.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 7,
+  "memoryUsage": 410426440,
+  "type": "liferaybeat"
+}
+2016-11-27T00:28:46+05:30 INFO Event sent
+2016-11-27T00:28:47+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:28:47+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.654012ms.
+2016-11-27T00:28:47+05:30 DBG  send completed
+2016-11-27T00:28:51+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T18:58:51.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 8,
+  "memoryUsage": 410595888,
+  "type": "liferaybeat"
+}
+2016-11-27T00:28:51+05:30 INFO Event sent
+2016-11-27T00:28:52+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:28:52+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.749331ms.
+2016-11-27T00:28:52+05:30 DBG  send completed
+2016-11-27T00:28:56+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T18:58:56.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 9,
+  "memoryUsage": 411170832,
+  "type": "liferaybeat"
+}
+2016-11-27T00:28:56+05:30 INFO Event sent
+2016-11-27T00:28:57+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:28:57+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.410395ms.
+2016-11-27T00:28:57+05:30 DBG  send completed
+2016-11-27T00:29:01+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T18:59:01.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 10,
+  "memoryUsage": 411340024,
+  "type": "liferaybeat"
+}
+2016-11-27T00:29:01+05:30 INFO Event sent
+2016-11-27T00:29:02+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:29:02+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.277105ms.
+2016-11-27T00:29:02+05:30 DBG  send completed
+2016-11-27T00:29:06+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T18:59:06.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 11,
+  "memoryUsage": 441559480,
+  "type": "liferaybeat"
+}
+2016-11-27T00:29:06+05:30 INFO Event sent
+2016-11-27T00:29:07+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:29:07+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 25.096973ms.
+2016-11-27T00:29:07+05:30 DBG  send completed
+2016-11-27T00:29:11+05:30 INFO Non-zero metrics in the last 30s: libbeat.publisher.messages_in_worker_queues=6 libbeat.es.publish.write_bytes=2750 libbeat.es.published_and_acked_events=6 libbeat.publisher.published_events=6 libbeat.es.call_count.PublishEvents=6 libbeat.es.publish.read_bytes=2007
+2016-11-27T00:29:11+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T18:59:11.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 12,
+  "memoryUsage": 469376224,
+  "type": "liferaybeat"
+}
+2016-11-27T00:29:11+05:30 INFO Event sent
+2016-11-27T00:29:12+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:29:12+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 12.002403ms.
+2016-11-27T00:29:12+05:30 DBG  send completed
+2016-11-27T00:29:17+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T18:59:16.967Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 13,
+  "memoryUsage": 353038696,
+  "type": "liferaybeat"
+}
+2016-11-27T00:29:17+05:30 INFO Event sent
+2016-11-27T00:29:17+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:29:17+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 40.179448ms.
+2016-11-27T00:29:17+05:30 DBG  send completed
+2016-11-27T00:29:21+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T18:59:21.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 14,
+  "memoryUsage": 669400088,
+  "type": "liferaybeat"
+}
+2016-11-27T00:29:21+05:30 INFO Event sent
+2016-11-27T00:29:22+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:29:22+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 25.340813ms.
+2016-11-27T00:29:22+05:30 DBG  send completed
+2016-11-27T00:29:26+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T18:59:26.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 15,
+  "memoryUsage": 697705056,
+  "type": "liferaybeat"
+}
+2016-11-27T00:29:26+05:30 INFO Event sent
+2016-11-27T00:29:27+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:29:27+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 12.547897ms.
+2016-11-27T00:29:27+05:30 DBG  send completed
+2016-11-27T00:29:31+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T18:59:31.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 16,
+  "memoryUsage": 699360832,
+  "type": "liferaybeat"
+}
+2016-11-27T00:29:31+05:30 INFO Event sent
+2016-11-27T00:29:32+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:29:32+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 20.473459ms.
+2016-11-27T00:29:32+05:30 DBG  send completed
+2016-11-27T00:29:36+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T18:59:36.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 17,
+  "memoryUsage": 356969200,
+  "type": "liferaybeat"
+}
+2016-11-27T00:29:36+05:30 INFO Event sent
+2016-11-27T00:29:37+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:29:37+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 27.447248ms.
+2016-11-27T00:29:37+05:30 DBG  send completed
+2016-11-27T00:29:41+05:30 INFO Non-zero metrics in the last 30s: libbeat.es.publish.write_bytes=2754 libbeat.publisher.published_events=6 libbeat.es.call_count.PublishEvents=6 libbeat.es.published_and_acked_events=6 libbeat.publisher.messages_in_worker_queues=6 libbeat.es.publish.read_bytes=2012
+2016-11-27T00:29:41+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T18:59:41.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 18,
+  "memoryUsage": 357341464,
+  "type": "liferaybeat"
+}
+2016-11-27T00:29:41+05:30 INFO Event sent
+2016-11-27T00:29:42+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:29:42+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 48.58799ms.
+2016-11-27T00:29:42+05:30 DBG  send completed
+2016-11-27T00:29:46+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T18:59:46.836Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 19,
+  "memoryUsage": 357873456,
+  "type": "liferaybeat"
+}
+2016-11-27T00:29:46+05:30 INFO Event sent
+2016-11-27T00:29:47+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:29:47+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 26.851739ms.
+2016-11-27T00:29:47+05:30 DBG  send completed
+2016-11-27T00:29:51+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T18:59:51.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 20,
+  "memoryUsage": 357960128,
+  "type": "liferaybeat"
+}
+2016-11-27T00:29:51+05:30 INFO Event sent
+2016-11-27T00:29:52+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:29:52+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 25.287184ms.
+2016-11-27T00:29:52+05:30 DBG  send completed
+2016-11-27T00:29:56+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T18:59:56.836Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 21,
+  "memoryUsage": 358433520,
+  "type": "liferaybeat"
+}
+2016-11-27T00:29:56+05:30 INFO Event sent
+2016-11-27T00:29:57+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:29:57+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.792057ms.
+2016-11-27T00:29:57+05:30 DBG  send completed
+2016-11-27T00:30:01+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:00:01.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 22,
+  "memoryUsage": 358544968,
+  "type": "liferaybeat"
+}
+2016-11-27T00:30:01+05:30 INFO Event sent
+2016-11-27T00:30:02+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:30:02+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 26.829604ms.
+2016-11-27T00:30:02+05:30 DBG  send completed
+2016-11-27T00:30:06+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:00:06.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 23,
+  "memoryUsage": 358679232,
+  "type": "liferaybeat"
+}
+2016-11-27T00:30:06+05:30 INFO Event sent
+2016-11-27T00:30:07+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:30:07+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 27.987604ms.
+2016-11-27T00:30:07+05:30 DBG  send completed
+2016-11-27T00:30:11+05:30 INFO Non-zero metrics in the last 30s: libbeat.es.call_count.PublishEvents=6 libbeat.es.publish.write_bytes=2754 libbeat.publisher.published_events=6 libbeat.es.publish.read_bytes=2012 libbeat.es.published_and_acked_events=6 libbeat.publisher.messages_in_worker_queues=6
+2016-11-27T00:30:11+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:00:11.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 24,
+  "memoryUsage": 358787584,
+  "type": "liferaybeat"
+}
+2016-11-27T00:30:11+05:30 INFO Event sent
+2016-11-27T00:30:12+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:30:12+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 84.713018ms.
+2016-11-27T00:30:12+05:30 DBG  send completed
+2016-11-27T00:30:16+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:00:16.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 25,
+  "memoryUsage": 359262464,
+  "type": "liferaybeat"
+}
+2016-11-27T00:30:16+05:30 INFO Event sent
+2016-11-27T00:30:17+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:30:17+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 28.26875ms.
+2016-11-27T00:30:17+05:30 DBG  send completed
+2016-11-27T00:30:21+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:00:21.836Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 26,
+  "memoryUsage": 359282648,
+  "type": "liferaybeat"
+}
+2016-11-27T00:30:21+05:30 INFO Event sent
+2016-11-27T00:30:22+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:30:22+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.520824ms.
+2016-11-27T00:30:22+05:30 DBG  send completed
+2016-11-27T00:30:26+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:00:26.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 27,
+  "memoryUsage": 359692736,
+  "type": "liferaybeat"
+}
+2016-11-27T00:30:26+05:30 INFO Event sent
+2016-11-27T00:30:27+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:30:27+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.315985ms.
+2016-11-27T00:30:27+05:30 DBG  send completed
+2016-11-27T00:30:31+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:00:31.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 28,
+  "memoryUsage": 359934536,
+  "type": "liferaybeat"
+}
+2016-11-27T00:30:31+05:30 INFO Event sent
+2016-11-27T00:30:32+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:30:32+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.742472ms.
+2016-11-27T00:30:32+05:30 DBG  send completed
+2016-11-27T00:30:36+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:00:36.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 29,
+  "memoryUsage": 360068504,
+  "type": "liferaybeat"
+}
+2016-11-27T00:30:36+05:30 INFO Event sent
+2016-11-27T00:30:37+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:30:37+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.852684ms.
+2016-11-27T00:30:37+05:30 DBG  send completed
+2016-11-27T00:30:41+05:30 INFO Non-zero metrics in the last 30s: libbeat.publisher.messages_in_worker_queues=6 libbeat.es.published_and_acked_events=6 libbeat.publisher.published_events=6 libbeat.es.call_count.PublishEvents=6 libbeat.es.publish.read_bytes=2003 libbeat.es.publish.write_bytes=2754
+2016-11-27T00:30:41+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:00:41.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 30,
+  "memoryUsage": 360236168,
+  "type": "liferaybeat"
+}
+2016-11-27T00:30:41+05:30 INFO Event sent
+2016-11-27T00:30:42+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:30:42+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 40.875388ms.
+2016-11-27T00:30:42+05:30 DBG  send completed
+2016-11-27T00:30:46+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:00:46.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 31,
+  "memoryUsage": 360623792,
+  "type": "liferaybeat"
+}
+2016-11-27T00:30:46+05:30 INFO Event sent
+2016-11-27T00:30:47+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:30:47+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 51.938669ms.
+2016-11-27T00:30:47+05:30 DBG  send completed
+2016-11-27T00:30:51+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:00:51.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 32,
+  "memoryUsage": 360902448,
+  "type": "liferaybeat"
+}
+2016-11-27T00:30:51+05:30 INFO Event sent
+2016-11-27T00:30:52+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:30:53+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 204.971367ms.
+2016-11-27T00:30:53+05:30 DBG  send completed
+2016-11-27T00:30:56+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:00:56.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 33,
+  "memoryUsage": 361237480,
+  "type": "liferaybeat"
+}
+2016-11-27T00:30:56+05:30 INFO Event sent
+2016-11-27T00:30:57+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:30:57+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 71.927865ms.
+2016-11-27T00:30:57+05:30 DBG  send completed
+2016-11-27T00:31:01+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:01:01.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 34,
+  "memoryUsage": 361383032,
+  "type": "liferaybeat"
+}
+2016-11-27T00:31:01+05:30 INFO Event sent
+2016-11-27T00:31:02+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:31:02+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 117.950534ms.
+2016-11-27T00:31:02+05:30 DBG  send completed
+2016-11-27T00:31:06+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:01:06.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 35,
+  "memoryUsage": 361486208,
+  "type": "liferaybeat"
+}
+2016-11-27T00:31:06+05:30 INFO Event sent
+2016-11-27T00:31:07+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:31:07+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 31.14968ms.
+2016-11-27T00:31:07+05:30 DBG  send completed
+2016-11-27T00:31:11+05:30 INFO Non-zero metrics in the last 30s: libbeat.es.published_and_acked_events=6 libbeat.es.publish.write_bytes=2754 libbeat.es.call_count.PublishEvents=6 libbeat.es.publish.read_bytes=2011 libbeat.publisher.messages_in_worker_queues=6 libbeat.publisher.published_events=6
+2016-11-27T00:31:11+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:01:11.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 36,
+  "memoryUsage": 361632416,
+  "type": "liferaybeat"
+}
+2016-11-27T00:31:11+05:30 INFO Event sent
+2016-11-27T00:31:12+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:31:12+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.51319ms.
+2016-11-27T00:31:12+05:30 DBG  send completed
+2016-11-27T00:31:16+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:01:16.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 37,
+  "memoryUsage": 361993600,
+  "type": "liferaybeat"
+}
+2016-11-27T00:31:16+05:30 INFO Event sent
+2016-11-27T00:31:17+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:31:17+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 44.076166ms.
+2016-11-27T00:31:17+05:30 DBG  send completed
+2016-11-27T00:31:21+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:01:21.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 38,
+  "memoryUsage": 362037960,
+  "type": "liferaybeat"
+}
+2016-11-27T00:31:21+05:30 INFO Event sent
+2016-11-27T00:31:22+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:31:22+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.871258ms.
+2016-11-27T00:31:22+05:30 DBG  send completed
+2016-11-27T00:31:26+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:01:26.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 39,
+  "memoryUsage": 362336512,
+  "type": "liferaybeat"
+}
+2016-11-27T00:31:26+05:30 INFO Event sent
+2016-11-27T00:31:27+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:31:27+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.533665ms.
+2016-11-27T00:31:27+05:30 DBG  send completed
+2016-11-27T00:31:31+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:01:31.836Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 40,
+  "memoryUsage": 362571976,
+  "type": "liferaybeat"
+}
+2016-11-27T00:31:31+05:30 INFO Event sent
+2016-11-27T00:31:32+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:31:32+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 52.73684ms.
+2016-11-27T00:31:32+05:30 DBG  send completed
+2016-11-27T00:31:36+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:01:36.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 41,
+  "memoryUsage": 362752200,
+  "type": "liferaybeat"
+}
+2016-11-27T00:31:36+05:30 INFO Event sent
+2016-11-27T00:31:37+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:31:37+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 21.980821ms.
+2016-11-27T00:31:37+05:30 DBG  send completed
+2016-11-27T00:31:41+05:30 INFO Non-zero metrics in the last 30s: libbeat.es.publish.write_bytes=2754 libbeat.publisher.messages_in_worker_queues=6 libbeat.es.call_count.PublishEvents=6 libbeat.es.published_and_acked_events=6 libbeat.es.publish.read_bytes=2007 libbeat.publisher.published_events=6
+2016-11-27T00:31:41+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:01:41.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 42,
+  "memoryUsage": 362970928,
+  "type": "liferaybeat"
+}
+2016-11-27T00:31:41+05:30 INFO Event sent
+2016-11-27T00:31:42+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:31:42+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.375257ms.
+2016-11-27T00:31:42+05:30 DBG  send completed
+2016-11-27T00:31:46+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:01:46.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 43,
+  "memoryUsage": 363303744,
+  "type": "liferaybeat"
+}
+2016-11-27T00:31:46+05:30 INFO Event sent
+2016-11-27T00:31:47+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:31:47+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 30.823703ms.
+2016-11-27T00:31:47+05:30 DBG  send completed
+2016-11-27T00:31:51+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:01:51.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 44,
+  "memoryUsage": 363457912,
+  "type": "liferaybeat"
+}
+2016-11-27T00:31:51+05:30 INFO Event sent
+2016-11-27T00:31:52+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:31:52+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 64.860824ms.
+2016-11-27T00:31:52+05:30 DBG  send completed
+2016-11-27T00:31:56+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:01:56.836Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 45,
+  "memoryUsage": 363756512,
+  "type": "liferaybeat"
+}
+2016-11-27T00:31:56+05:30 INFO Event sent
+2016-11-27T00:31:57+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:31:57+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 31.69732ms.
+2016-11-27T00:31:57+05:30 DBG  send completed
+2016-11-27T00:32:01+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:02:01.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 46,
+  "memoryUsage": 363893984,
+  "type": "liferaybeat"
+}
+2016-11-27T00:32:01+05:30 INFO Event sent
+2016-11-27T00:32:02+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:32:02+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 24.209981ms.
+2016-11-27T00:32:02+05:30 DBG  send completed
+2016-11-27T00:32:06+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:02:06.836Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 47,
+  "memoryUsage": 364064808,
+  "type": "liferaybeat"
+}
+2016-11-27T00:32:06+05:30 INFO Event sent
+2016-11-27T00:32:07+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:32:07+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 6.112713ms.
+2016-11-27T00:32:07+05:30 DBG  send completed
+2016-11-27T00:32:11+05:30 INFO Non-zero metrics in the last 30s: libbeat.es.call_count.PublishEvents=6 libbeat.es.publish.read_bytes=2009 libbeat.publisher.published_events=6 libbeat.publisher.messages_in_worker_queues=6 libbeat.es.publish.write_bytes=2754 libbeat.es.published_and_acked_events=6
+2016-11-27T00:32:11+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:02:11.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 48,
+  "memoryUsage": 364130128,
+  "type": "liferaybeat"
+}
+2016-11-27T00:32:11+05:30 INFO Event sent
+2016-11-27T00:32:12+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:32:12+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.026556ms.
+2016-11-27T00:32:12+05:30 DBG  send completed
+2016-11-27T00:32:16+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:02:16.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 49,
+  "memoryUsage": 364534488,
+  "type": "liferaybeat"
+}
+2016-11-27T00:32:16+05:30 INFO Event sent
+2016-11-27T00:32:17+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:32:17+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.468063ms.
+2016-11-27T00:32:17+05:30 DBG  send completed
+2016-11-27T00:32:21+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:02:21.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 50,
+  "memoryUsage": 364679344,
+  "type": "liferaybeat"
+}
+2016-11-27T00:32:21+05:30 INFO Event sent
+2016-11-27T00:32:22+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:32:22+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.962863ms.
+2016-11-27T00:32:22+05:30 DBG  send completed
+2016-11-27T00:32:26+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:02:26.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 51,
+  "memoryUsage": 365012088,
+  "type": "liferaybeat"
+}
+2016-11-27T00:32:26+05:30 INFO Event sent
+2016-11-27T00:32:27+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:32:27+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.280177ms.
+2016-11-27T00:32:27+05:30 DBG  send completed
+2016-11-27T00:32:31+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:02:31.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 52,
+  "memoryUsage": 365211128,
+  "type": "liferaybeat"
+}
+2016-11-27T00:32:31+05:30 INFO Event sent
+2016-11-27T00:32:32+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:32:32+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.351677ms.
+2016-11-27T00:32:32+05:30 DBG  send completed
+2016-11-27T00:32:36+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:02:36.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 53,
+  "memoryUsage": 365233584,
+  "type": "liferaybeat"
+}
+2016-11-27T00:32:36+05:30 INFO Event sent
+2016-11-27T00:32:37+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:32:37+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.279041ms.
+2016-11-27T00:32:37+05:30 DBG  send completed
+2016-11-27T00:32:41+05:30 INFO Non-zero metrics in the last 30s: libbeat.es.call_count.PublishEvents=6 libbeat.es.published_and_acked_events=6 libbeat.es.publish.read_bytes=2012 libbeat.publisher.published_events=6 libbeat.es.publish.write_bytes=2754 libbeat.publisher.messages_in_worker_queues=6
+2016-11-27T00:32:41+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:02:41.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 54,
+  "memoryUsage": 365509888,
+  "type": "liferaybeat"
+}
+2016-11-27T00:32:41+05:30 INFO Event sent
+2016-11-27T00:32:42+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:32:42+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 6.28214ms.
+2016-11-27T00:32:42+05:30 DBG  send completed
+2016-11-27T00:32:46+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:02:46.914Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 55,
+  "memoryUsage": 365873784,
+  "type": "liferaybeat"
+}
+2016-11-27T00:32:47+05:30 INFO Event sent
+2016-11-27T00:32:47+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:32:47+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 12.185247ms.
+2016-11-27T00:32:47+05:30 DBG  send completed
+2016-11-27T00:32:51+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:02:51.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 56,
+  "memoryUsage": 365942976,
+  "type": "liferaybeat"
+}
+2016-11-27T00:32:51+05:30 INFO Event sent
+2016-11-27T00:32:52+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:32:52+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 81.493294ms.
+2016-11-27T00:32:52+05:30 DBG  send completed
+2016-11-27T00:32:56+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:02:56.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 57,
+  "memoryUsage": 366489008,
+  "type": "liferaybeat"
+}
+2016-11-27T00:32:56+05:30 INFO Event sent
+2016-11-27T00:32:57+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:32:57+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 40.272849ms.
+2016-11-27T00:32:57+05:30 DBG  send completed
+2016-11-27T00:33:01+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:03:01.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 58,
+  "memoryUsage": 366551752,
+  "type": "liferaybeat"
+}
+2016-11-27T00:33:01+05:30 INFO Event sent
+2016-11-27T00:33:02+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:33:02+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.966505ms.
+2016-11-27T00:33:02+05:30 DBG  send completed
+2016-11-27T00:33:06+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:03:06.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 59,
+  "memoryUsage": 366586008,
+  "type": "liferaybeat"
+}
+2016-11-27T00:33:06+05:30 INFO Event sent
+2016-11-27T00:33:07+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:33:07+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 8.444113ms.
+2016-11-27T00:33:07+05:30 DBG  send completed
+2016-11-27T00:33:11+05:30 INFO Non-zero metrics in the last 30s: libbeat.publisher.published_events=6 libbeat.es.call_count.PublishEvents=6 libbeat.publisher.messages_in_worker_queues=6 libbeat.es.publish.read_bytes=2017 libbeat.es.publish.write_bytes=2754 libbeat.es.published_and_acked_events=6
+2016-11-27T00:33:11+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:03:11.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 60,
+  "memoryUsage": 366689240,
+  "type": "liferaybeat"
+}
+2016-11-27T00:33:11+05:30 INFO Event sent
+2016-11-27T00:33:12+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:33:12+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 47.604472ms.
+2016-11-27T00:33:12+05:30 DBG  send completed
+2016-11-27T00:33:16+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:03:16.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 61,
+  "memoryUsage": 367064816,
+  "type": "liferaybeat"
+}
+2016-11-27T00:33:16+05:30 INFO Event sent
+2016-11-27T00:33:17+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:33:17+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.993396ms.
+2016-11-27T00:33:17+05:30 DBG  send completed
+2016-11-27T00:33:21+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:03:21.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 62,
+  "memoryUsage": 367471432,
+  "type": "liferaybeat"
+}
+2016-11-27T00:33:21+05:30 INFO Event sent
+2016-11-27T00:33:22+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:33:22+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.980651ms.
+2016-11-27T00:33:22+05:30 DBG  send completed
+2016-11-27T00:33:26+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:03:26.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 63,
+  "memoryUsage": 367770320,
+  "type": "liferaybeat"
+}
+2016-11-27T00:33:26+05:30 INFO Event sent
+2016-11-27T00:33:27+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:33:27+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 28.143082ms.
+2016-11-27T00:33:27+05:30 DBG  send completed
+2016-11-27T00:33:31+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:03:31.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 64,
+  "memoryUsage": 368228912,
+  "type": "liferaybeat"
+}
+2016-11-27T00:33:31+05:30 INFO Event sent
+2016-11-27T00:33:32+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:33:32+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 32.266377ms.
+2016-11-27T00:33:32+05:30 DBG  send completed
+2016-11-27T00:33:36+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:03:36.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 65,
+  "memoryUsage": 368770024,
+  "type": "liferaybeat"
+}
+2016-11-27T00:33:36+05:30 INFO Event sent
+2016-11-27T00:33:37+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:33:37+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 6.634472ms.
+2016-11-27T00:33:37+05:30 DBG  send completed
+2016-11-27T00:33:41+05:30 INFO Non-zero metrics in the last 30s: libbeat.publisher.messages_in_worker_queues=6 libbeat.es.published_and_acked_events=6 libbeat.publisher.published_events=6 libbeat.es.publish.read_bytes=2014 libbeat.es.publish.write_bytes=2754 libbeat.es.call_count.PublishEvents=6
+2016-11-27T00:33:41+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:03:41.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 66,
+  "memoryUsage": 368833384,
+  "type": "liferaybeat"
+}
+2016-11-27T00:33:41+05:30 INFO Event sent
+2016-11-27T00:33:42+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:33:42+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 41.700061ms.
+2016-11-27T00:33:42+05:30 DBG  send completed
+2016-11-27T00:33:46+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:03:46.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 67,
+  "memoryUsage": 368922272,
+  "type": "liferaybeat"
+}
+2016-11-27T00:33:46+05:30 INFO Event sent
+2016-11-27T00:33:47+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:33:47+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 29.986076ms.
+2016-11-27T00:33:47+05:30 DBG  send completed
+2016-11-27T00:33:51+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:03:51.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 68,
+  "memoryUsage": 368961512,
+  "type": "liferaybeat"
+}
+2016-11-27T00:33:51+05:30 INFO Event sent
+2016-11-27T00:33:52+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:33:52+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.49077ms.
+2016-11-27T00:33:52+05:30 DBG  send completed
+2016-11-27T00:33:56+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:03:56.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 69,
+  "memoryUsage": 369259904,
+  "type": "liferaybeat"
+}
+2016-11-27T00:33:56+05:30 INFO Event sent
+2016-11-27T00:33:57+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:33:57+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 18.930726ms.
+2016-11-27T00:33:57+05:30 DBG  send completed
+2016-11-27T00:34:01+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:04:01.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 70,
+  "memoryUsage": 369374664,
+  "type": "liferaybeat"
+}
+2016-11-27T00:34:01+05:30 INFO Event sent
+2016-11-27T00:34:02+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:34:02+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.445655ms.
+2016-11-27T00:34:02+05:30 DBG  send completed
+2016-11-27T00:34:06+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:04:06.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 71,
+  "memoryUsage": 369673240,
+  "type": "liferaybeat"
+}
+2016-11-27T00:34:06+05:30 INFO Event sent
+2016-11-27T00:34:07+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:34:07+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 10.505228ms.
+2016-11-27T00:34:07+05:30 DBG  send completed
+2016-11-27T00:34:11+05:30 INFO Non-zero metrics in the last 30s: libbeat.es.publish.write_bytes=2754 libbeat.publisher.published_events=6 libbeat.es.publish.read_bytes=2014 libbeat.es.call_count.PublishEvents=6 libbeat.es.published_and_acked_events=6 libbeat.publisher.messages_in_worker_queues=6
+2016-11-27T00:34:11+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:04:11.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 72,
+  "memoryUsage": 369765072,
+  "type": "liferaybeat"
+}
+2016-11-27T00:34:11+05:30 INFO Event sent
+2016-11-27T00:34:12+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:34:12+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 55.75042ms.
+2016-11-27T00:34:12+05:30 DBG  send completed
+2016-11-27T00:34:16+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:04:16.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 73,
+  "memoryUsage": 369917608,
+  "type": "liferaybeat"
+}
+2016-11-27T00:34:16+05:30 INFO Event sent
+2016-11-27T00:34:17+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:34:17+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 29.93351ms.
+2016-11-27T00:34:17+05:30 DBG  send completed
+2016-11-27T00:34:21+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:04:21.836Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 74,
+  "memoryUsage": 369998248,
+  "type": "liferaybeat"
+}
+2016-11-27T00:34:21+05:30 INFO Event sent
+2016-11-27T00:34:22+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:34:22+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 41.21423ms.
+2016-11-27T00:34:22+05:30 DBG  send completed
+2016-11-27T00:34:26+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:04:26.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 75,
+  "memoryUsage": 370393608,
+  "type": "liferaybeat"
+}
+2016-11-27T00:34:26+05:30 INFO Event sent
+2016-11-27T00:34:27+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:34:27+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 31.964628ms.
+2016-11-27T00:34:27+05:30 DBG  send completed
+2016-11-27T00:34:31+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:04:31.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 76,
+  "memoryUsage": 370393608,
+  "type": "liferaybeat"
+}
+2016-11-27T00:34:31+05:30 INFO Event sent
+2016-11-27T00:34:32+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:34:32+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 11.267631ms.
+2016-11-27T00:34:32+05:30 DBG  send completed
+2016-11-27T00:34:36+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:04:36.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 77,
+  "memoryUsage": 370692192,
+  "type": "liferaybeat"
+}
+2016-11-27T00:34:36+05:30 INFO Event sent
+2016-11-27T00:34:37+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:34:37+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 30.501533ms.
+2016-11-27T00:34:37+05:30 DBG  send completed
+2016-11-27T00:34:41+05:30 INFO Non-zero metrics in the last 30s: libbeat.publisher.published_events=6 libbeat.es.publish.write_bytes=2754 libbeat.es.call_count.PublishEvents=6 libbeat.es.published_and_acked_events=6 libbeat.publisher.messages_in_worker_queues=6 libbeat.es.publish.read_bytes=2016
+2016-11-27T00:34:41+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:04:41.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 78,
+  "memoryUsage": 370915840,
+  "type": "liferaybeat"
+}
+2016-11-27T00:34:41+05:30 INFO Event sent
+2016-11-27T00:34:42+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:34:42+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 6.15071ms.
+2016-11-27T00:34:42+05:30 DBG  send completed
+2016-11-27T00:34:46+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:04:46.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 79,
+  "memoryUsage": 370993264,
+  "type": "liferaybeat"
+}
+2016-11-27T00:34:46+05:30 INFO Event sent
+2016-11-27T00:34:47+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:34:47+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.729957ms.
+2016-11-27T00:34:47+05:30 DBG  send completed
+2016-11-27T00:34:51+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:04:51.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 80,
+  "memoryUsage": 370993520,
+  "type": "liferaybeat"
+}
+2016-11-27T00:34:51+05:30 INFO Event sent
+2016-11-27T00:34:52+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:34:52+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 7.467058ms.
+2016-11-27T00:34:52+05:30 DBG  send completed
+2016-11-27T00:34:56+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:04:56.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 81,
+  "memoryUsage": 371393592,
+  "type": "liferaybeat"
+}
+2016-11-27T00:34:56+05:30 INFO Event sent
+2016-11-27T00:34:57+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:34:57+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.899573ms.
+2016-11-27T00:34:57+05:30 DBG  send completed
+2016-11-27T00:35:01+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:05:01.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 82,
+  "memoryUsage": 371462536,
+  "type": "liferaybeat"
+}
+2016-11-27T00:35:01+05:30 INFO Event sent
+2016-11-27T00:35:02+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:35:03+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 255.64587ms.
+2016-11-27T00:35:03+05:30 DBG  send completed
+2016-11-27T00:35:06+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:05:06.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 83,
+  "memoryUsage": 371859864,
+  "type": "liferaybeat"
+}
+2016-11-27T00:35:06+05:30 INFO Event sent
+2016-11-27T00:35:07+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:35:07+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 7.333473ms.
+2016-11-27T00:35:07+05:30 DBG  send completed
+2016-11-27T00:35:11+05:30 INFO Non-zero metrics in the last 30s: libbeat.es.call_count.PublishEvents=6 libbeat.es.publish.read_bytes=2006 libbeat.publisher.messages_in_worker_queues=6 libbeat.publisher.published_events=6 libbeat.es.published_and_acked_events=6 libbeat.es.publish.write_bytes=2754
+2016-11-27T00:35:11+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:05:11.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 84,
+  "memoryUsage": 371969504,
+  "type": "liferaybeat"
+}
+2016-11-27T00:35:11+05:30 INFO Event sent
+2016-11-27T00:35:12+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:35:12+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.751116ms.
+2016-11-27T00:35:12+05:30 DBG  send completed
+2016-11-27T00:35:16+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:05:16.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 85,
+  "memoryUsage": 371969504,
+  "type": "liferaybeat"
+}
+2016-11-27T00:35:16+05:30 INFO Event sent
+2016-11-27T00:35:17+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:35:17+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 7.239946ms.
+2016-11-27T00:35:17+05:30 DBG  send completed
+2016-11-27T00:35:21+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:05:21.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 86,
+  "memoryUsage": 372013872,
+  "type": "liferaybeat"
+}
+2016-11-27T00:35:21+05:30 INFO Event sent
+2016-11-27T00:35:22+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:35:22+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 66.55129ms.
+2016-11-27T00:35:22+05:30 DBG  send completed
+2016-11-27T00:35:26+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:05:26.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 87,
+  "memoryUsage": 372487984,
+  "type": "liferaybeat"
+}
+2016-11-27T00:35:26+05:30 INFO Event sent
+2016-11-27T00:35:27+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:35:27+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 34.693492ms.
+2016-11-27T00:35:27+05:30 DBG  send completed
+2016-11-27T00:35:31+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:05:31.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 88,
+  "memoryUsage": 372488240,
+  "type": "liferaybeat"
+}
+2016-11-27T00:35:31+05:30 INFO Event sent
+2016-11-27T00:35:32+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:35:32+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.267648ms.
+2016-11-27T00:35:32+05:30 DBG  send completed
+2016-11-27T00:35:36+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:05:36.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 89,
+  "memoryUsage": 372845776,
+  "type": "liferaybeat"
+}
+2016-11-27T00:35:36+05:30 INFO Event sent
+2016-11-27T00:35:37+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:35:37+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 28.968694ms.
+2016-11-27T00:35:37+05:30 DBG  send completed
+2016-11-27T00:35:41+05:30 INFO Non-zero metrics in the last 30s: libbeat.publisher.published_events=6 libbeat.es.call_count.PublishEvents=6 libbeat.publisher.messages_in_worker_queues=6 libbeat.es.published_and_acked_events=6 libbeat.es.publish.read_bytes=2008 libbeat.es.publish.write_bytes=2754
+2016-11-27T00:35:41+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:05:41.836Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 90,
+  "memoryUsage": 372999296,
+  "type": "liferaybeat"
+}
+2016-11-27T00:35:41+05:30 INFO Event sent
+2016-11-27T00:35:42+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:35:42+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.586023ms.
+2016-11-27T00:35:42+05:30 DBG  send completed
+2016-11-27T00:35:46+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:05:46.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 91,
+  "memoryUsage": 373396840,
+  "type": "liferaybeat"
+}
+2016-11-27T00:35:46+05:30 INFO Event sent
+2016-11-27T00:35:47+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:35:47+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.781493ms.
+2016-11-27T00:35:47+05:30 DBG  send completed
+2016-11-27T00:35:51+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:05:51.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 92,
+  "memoryUsage": 373465904,
+  "type": "liferaybeat"
+}
+2016-11-27T00:35:51+05:30 INFO Event sent
+2016-11-27T00:35:52+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:35:52+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 3.867826ms.
+2016-11-27T00:35:52+05:30 DBG  send completed
+2016-11-27T00:35:56+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:05:56.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 93,
+  "memoryUsage": 373465904,
+  "type": "liferaybeat"
+}
+2016-11-27T00:35:56+05:30 INFO Event sent
+2016-11-27T00:35:57+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:35:57+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.908374ms.
+2016-11-27T00:35:57+05:30 DBG  send completed
+2016-11-27T00:36:01+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:06:01.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 94,
+  "memoryUsage": 373465904,
+  "type": "liferaybeat"
+}
+2016-11-27T00:36:01+05:30 INFO Event sent
+2016-11-27T00:36:02+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:36:02+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 23.005529ms.
+2016-11-27T00:36:02+05:30 DBG  send completed
+2016-11-27T00:36:06+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:06:06.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 95,
+  "memoryUsage": 373955048,
+  "type": "liferaybeat"
+}
+2016-11-27T00:36:06+05:30 INFO Event sent
+2016-11-27T00:36:07+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:36:07+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.721632ms.
+2016-11-27T00:36:07+05:30 DBG  send completed
+2016-11-27T00:36:11+05:30 INFO Non-zero metrics in the last 30s: libbeat.publisher.messages_in_worker_queues=6 libbeat.es.publish.read_bytes=2008 libbeat.es.published_and_acked_events=6 libbeat.publisher.published_events=6 libbeat.es.publish.write_bytes=2754 libbeat.es.call_count.PublishEvents=6
+2016-11-27T00:36:11+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:06:11.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 96,
+  "memoryUsage": 373955304,
+  "type": "liferaybeat"
+}
+2016-11-27T00:36:11+05:30 INFO Event sent
+2016-11-27T00:36:12+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:36:12+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.275562ms.
+2016-11-27T00:36:12+05:30 DBG  send completed
+2016-11-27T00:36:16+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:06:16.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 97,
+  "memoryUsage": 374256192,
+  "type": "liferaybeat"
+}
+2016-11-27T00:36:16+05:30 INFO Event sent
+2016-11-27T00:36:17+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:36:17+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.052298ms.
+2016-11-27T00:36:17+05:30 DBG  send completed
+2016-11-27T00:36:21+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:06:21.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 98,
+  "memoryUsage": 374441224,
+  "type": "liferaybeat"
+}
+2016-11-27T00:36:21+05:30 INFO Event sent
+2016-11-27T00:36:22+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:36:22+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 128.978551ms.
+2016-11-27T00:36:22+05:30 DBG  send completed
+2016-11-27T00:36:26+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:06:26.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 99,
+  "memoryUsage": 374582504,
+  "type": "liferaybeat"
+}
+2016-11-27T00:36:26+05:30 INFO Event sent
+2016-11-27T00:36:27+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:36:27+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 39.634626ms.
+2016-11-27T00:36:27+05:30 DBG  send completed
+2016-11-27T00:36:31+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:06:31.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 100,
+  "memoryUsage": 374709176,
+  "type": "liferaybeat"
+}
+2016-11-27T00:36:31+05:30 INFO Event sent
+2016-11-27T00:36:32+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:36:32+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 25.711878ms.
+2016-11-27T00:36:32+05:30 DBG  send completed
+2016-11-27T00:36:36+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:06:36.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 101,
+  "memoryUsage": 375218720,
+  "type": "liferaybeat"
+}
+2016-11-27T00:36:36+05:30 INFO Event sent
+2016-11-27T00:36:37+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:36:37+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 127.154268ms.
+2016-11-27T00:36:37+05:30 DBG  send completed
+2016-11-27T00:36:41+05:30 INFO Non-zero metrics in the last 30s: libbeat.es.publish.read_bytes=2013 libbeat.publisher.messages_in_worker_queues=6 libbeat.publisher.published_events=6 libbeat.es.publish.write_bytes=2756 libbeat.es.published_and_acked_events=6 libbeat.es.call_count.PublishEvents=6
+2016-11-27T00:36:41+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:06:41.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 102,
+  "memoryUsage": 375287736,
+  "type": "liferaybeat"
+}
+2016-11-27T00:36:41+05:30 INFO Event sent
+2016-11-27T00:36:42+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:36:42+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.967362ms.
+2016-11-27T00:36:42+05:30 DBG  send completed
+2016-11-27T00:36:46+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:06:46.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 103,
+  "memoryUsage": 375685320,
+  "type": "liferaybeat"
+}
+2016-11-27T00:36:46+05:30 INFO Event sent
+2016-11-27T00:36:47+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:36:47+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 31.832457ms.
+2016-11-27T00:36:47+05:30 DBG  send completed
+2016-11-27T00:36:51+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:06:51.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 104,
+  "memoryUsage": 375685576,
+  "type": "liferaybeat"
+}
+2016-11-27T00:36:51+05:30 INFO Event sent
+2016-11-27T00:36:52+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:36:52+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.356613ms.
+2016-11-27T00:36:52+05:30 DBG  send completed
+2016-11-27T00:36:56+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:06:56.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 105,
+  "memoryUsage": 375750632,
+  "type": "liferaybeat"
+}
+2016-11-27T00:36:56+05:30 INFO Event sent
+2016-11-27T00:36:57+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:36:57+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.313674ms.
+2016-11-27T00:36:57+05:30 DBG  send completed
+2016-11-27T00:37:01+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:07:01.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 106,
+  "memoryUsage": 375808880,
+  "type": "liferaybeat"
+}
+2016-11-27T00:37:01+05:30 INFO Event sent
+2016-11-27T00:37:02+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:37:02+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 10.239294ms.
+2016-11-27T00:37:02+05:30 DBG  send completed
+2016-11-27T00:37:06+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:07:06.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 107,
+  "memoryUsage": 376107288,
+  "type": "liferaybeat"
+}
+2016-11-27T00:37:06+05:30 INFO Event sent
+2016-11-27T00:37:07+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:37:07+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 27.528199ms.
+2016-11-27T00:37:07+05:30 DBG  send completed
+2016-11-27T00:37:11+05:30 INFO Non-zero metrics in the last 30s: libbeat.es.publish.read_bytes=2012 libbeat.es.call_count.PublishEvents=6 libbeat.es.publish.write_bytes=2760 libbeat.es.published_and_acked_events=6 libbeat.publisher.published_events=6 libbeat.publisher.messages_in_worker_queues=6
+2016-11-27T00:37:11+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:07:11.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 108,
+  "memoryUsage": 376141544,
+  "type": "liferaybeat"
+}
+2016-11-27T00:37:11+05:30 INFO Event sent
+2016-11-27T00:37:12+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:37:12+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.10751ms.
+2016-11-27T00:37:12+05:30 DBG  send completed
+2016-11-27T00:37:16+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:07:16.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 109,
+  "memoryUsage": 376517000,
+  "type": "liferaybeat"
+}
+2016-11-27T00:37:16+05:30 INFO Event sent
+2016-11-27T00:37:17+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:37:17+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 23.972796ms.
+2016-11-27T00:37:17+05:30 DBG  send completed
+2016-11-27T00:37:21+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:07:21.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 110,
+  "memoryUsage": 376527056,
+  "type": "liferaybeat"
+}
+2016-11-27T00:37:21+05:30 INFO Event sent
+2016-11-27T00:37:22+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:37:22+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 72.086146ms.
+2016-11-27T00:37:22+05:30 DBG  send completed
+2016-11-27T00:37:26+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:07:26.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 111,
+  "memoryUsage": 376574184,
+  "type": "liferaybeat"
+}
+2016-11-27T00:37:26+05:30 INFO Event sent
+2016-11-27T00:37:27+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:37:27+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.973959ms.
+2016-11-27T00:37:27+05:30 DBG  send completed
+2016-11-27T00:37:31+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:07:31.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 112,
+  "memoryUsage": 376658888,
+  "type": "liferaybeat"
+}
+2016-11-27T00:37:31+05:30 INFO Event sent
+2016-11-27T00:37:32+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:37:32+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.539001ms.
+2016-11-27T00:37:32+05:30 DBG  send completed
+2016-11-27T00:37:36+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:07:36.836Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 113,
+  "memoryUsage": 377024120,
+  "type": "liferaybeat"
+}
+2016-11-27T00:37:36+05:30 INFO Event sent
+2016-11-27T00:37:37+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:37:37+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.561216ms.
+2016-11-27T00:37:37+05:30 DBG  send completed
+2016-11-27T00:37:41+05:30 INFO Non-zero metrics in the last 30s: libbeat.es.publish.write_bytes=2760 libbeat.es.publish.read_bytes=2013 libbeat.publisher.messages_in_worker_queues=6 libbeat.es.published_and_acked_events=6 libbeat.publisher.published_events=6 libbeat.es.call_count.PublishEvents=6
+2016-11-27T00:37:41+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:07:41.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 114,
+  "memoryUsage": 377188792,
+  "type": "liferaybeat"
+}
+2016-11-27T00:37:41+05:30 INFO Event sent
+2016-11-27T00:37:42+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:37:42+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.790994ms.
+2016-11-27T00:37:42+05:30 DBG  send completed
+2016-11-27T00:37:46+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:07:46.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 115,
+  "memoryUsage": 377549888,
+  "type": "liferaybeat"
+}
+2016-11-27T00:37:46+05:30 INFO Event sent
+2016-11-27T00:37:47+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:37:47+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 12.641632ms.
+2016-11-27T00:37:47+05:30 DBG  send completed
+2016-11-27T00:37:51+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:07:51.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 116,
+  "memoryUsage": 377608056,
+  "type": "liferaybeat"
+}
+2016-11-27T00:37:51+05:30 INFO Event sent
+2016-11-27T00:37:52+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:37:52+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.018444ms.
+2016-11-27T00:37:52+05:30 DBG  send completed
+2016-11-27T00:37:56+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:07:56.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 117,
+  "memoryUsage": 377783200,
+  "type": "liferaybeat"
+}
+2016-11-27T00:37:56+05:30 INFO Event sent
+2016-11-27T00:37:57+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:37:57+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 58.385033ms.
+2016-11-27T00:37:57+05:30 DBG  send completed
+2016-11-27T00:38:01+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:08:01.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 118,
+  "memoryUsage": 377886400,
+  "type": "liferaybeat"
+}
+2016-11-27T00:38:01+05:30 INFO Event sent
+2016-11-27T00:38:02+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:38:02+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.350705ms.
+2016-11-27T00:38:02+05:30 DBG  send completed
+2016-11-27T00:38:06+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:08:06.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 119,
+  "memoryUsage": 378219496,
+  "type": "liferaybeat"
+}
+2016-11-27T00:38:06+05:30 INFO Event sent
+2016-11-27T00:38:07+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:38:07+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 28.184188ms.
+2016-11-27T00:38:07+05:30 DBG  send completed
+2016-11-27T00:38:11+05:30 INFO Non-zero metrics in the last 30s: libbeat.es.publish.write_bytes=2760 libbeat.publisher.messages_in_worker_queues=6 libbeat.es.call_count.PublishEvents=6 libbeat.es.publish.read_bytes=2016 libbeat.es.published_and_acked_events=6 libbeat.publisher.published_events=6
+2016-11-27T00:38:11+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:08:11.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 120,
+  "memoryUsage": 378300280,
+  "type": "liferaybeat"
+}
+2016-11-27T00:38:11+05:30 INFO Event sent
+2016-11-27T00:38:12+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:38:12+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.141801ms.
+2016-11-27T00:38:12+05:30 DBG  send completed
+2016-11-27T00:38:16+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:08:16.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 121,
+  "memoryUsage": 378666016,
+  "type": "liferaybeat"
+}
+2016-11-27T00:38:16+05:30 INFO Event sent
+2016-11-27T00:38:17+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:38:17+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 88.983065ms.
+2016-11-27T00:38:17+05:30 DBG  send completed
+2016-11-27T00:38:21+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:08:21.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 122,
+  "memoryUsage": 378791440,
+  "type": "liferaybeat"
+}
+2016-11-27T00:38:21+05:30 INFO Event sent
+2016-11-27T00:38:22+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:38:22+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 25.84364ms.
+2016-11-27T00:38:22+05:30 DBG  send completed
+2016-11-27T00:38:26+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:08:26.836Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 123,
+  "memoryUsage": 378856184,
+  "type": "liferaybeat"
+}
+2016-11-27T00:38:26+05:30 INFO Event sent
+2016-11-27T00:38:27+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:38:27+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 6.759607ms.
+2016-11-27T00:38:27+05:30 DBG  send completed
+2016-11-27T00:38:31+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:08:31.836Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 124,
+  "memoryUsage": 378960072,
+  "type": "liferaybeat"
+}
+2016-11-27T00:38:31+05:30 INFO Event sent
+2016-11-27T00:38:32+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:38:32+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 23.928582ms.
+2016-11-27T00:38:32+05:30 DBG  send completed
+2016-11-27T00:38:36+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:08:36.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 125,
+  "memoryUsage": 379401856,
+  "type": "liferaybeat"
+}
+2016-11-27T00:38:36+05:30 INFO Event sent
+2016-11-27T00:38:37+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:38:37+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 27.062941ms.
+2016-11-27T00:38:37+05:30 DBG  send completed
+2016-11-27T00:38:41+05:30 INFO Non-zero metrics in the last 30s: libbeat.es.call_count.PublishEvents=6 libbeat.es.published_and_acked_events=6 libbeat.publisher.published_events=6 libbeat.publisher.messages_in_worker_queues=6 libbeat.es.publish.read_bytes=2017 libbeat.es.publish.write_bytes=2760
+2016-11-27T00:38:41+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:08:41.836Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 126,
+  "memoryUsage": 379535416,
+  "type": "liferaybeat"
+}
+2016-11-27T00:38:41+05:30 INFO Event sent
+2016-11-27T00:38:42+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:38:42+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.662612ms.
+2016-11-27T00:38:42+05:30 DBG  send completed
+2016-11-27T00:38:46+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:08:46.836Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 127,
+  "memoryUsage": 379946968,
+  "type": "liferaybeat"
+}
+2016-11-27T00:38:46+05:30 INFO Event sent
+2016-11-27T00:38:47+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:38:47+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 23.893829ms.
+2016-11-27T00:38:47+05:30 DBG  send completed
+2016-11-27T00:38:51+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:08:51.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 128,
+  "memoryUsage": 379974536,
+  "type": "liferaybeat"
+}
+2016-11-27T00:38:51+05:30 INFO Event sent
+2016-11-27T00:38:52+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:38:52+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 30.616784ms.
+2016-11-27T00:38:52+05:30 DBG  send completed
+2016-11-27T00:38:56+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:08:56.836Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 129,
+  "memoryUsage": 380352416,
+  "type": "liferaybeat"
+}
+2016-11-27T00:38:56+05:30 INFO Event sent
+2016-11-27T00:38:57+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:38:57+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.503755ms.
+2016-11-27T00:38:57+05:30 DBG  send completed
+2016-11-27T00:39:01+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:09:01.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 130,
+  "memoryUsage": 380414120,
+  "type": "liferaybeat"
+}
+2016-11-27T00:39:01+05:30 INFO Event sent
+2016-11-27T00:39:02+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:39:02+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.911992ms.
+2016-11-27T00:39:02+05:30 DBG  send completed
+2016-11-27T00:39:06+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:09:06.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 131,
+  "memoryUsage": 380479176,
+  "type": "liferaybeat"
+}
+2016-11-27T00:39:06+05:30 INFO Event sent
+2016-11-27T00:39:07+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:39:07+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.04238ms.
+2016-11-27T00:39:07+05:30 DBG  send completed
+2016-11-27T00:39:11+05:30 INFO Non-zero metrics in the last 30s: libbeat.es.published_and_acked_events=6 libbeat.publisher.published_events=6 libbeat.es.call_count.PublishEvents=6 libbeat.es.publish.write_bytes=2760 libbeat.es.publish.read_bytes=2013 libbeat.publisher.messages_in_worker_queues=6
+2016-11-27T00:39:11+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:09:11.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 132,
+  "memoryUsage": 380525360,
+  "type": "liferaybeat"
+}
+2016-11-27T00:39:11+05:30 INFO Event sent
+2016-11-27T00:39:12+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:39:12+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.163176ms.
+2016-11-27T00:39:12+05:30 DBG  send completed
+2016-11-27T00:39:16+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:09:16.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 133,
+  "memoryUsage": 380850960,
+  "type": "liferaybeat"
+}
+2016-11-27T00:39:16+05:30 INFO Event sent
+2016-11-27T00:39:17+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:39:17+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.701272ms.
+2016-11-27T00:39:17+05:30 DBG  send completed
+2016-11-27T00:39:21+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:09:21.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 134,
+  "memoryUsage": 380861008,
+  "type": "liferaybeat"
+}
+2016-11-27T00:39:21+05:30 INFO Event sent
+2016-11-27T00:39:22+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:39:22+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.713557ms.
+2016-11-27T00:39:22+05:30 DBG  send completed
+2016-11-27T00:39:26+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:09:26.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 135,
+  "memoryUsage": 381256672,
+  "type": "liferaybeat"
+}
+2016-11-27T00:39:26+05:30 INFO Event sent
+2016-11-27T00:39:27+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:39:27+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.179623ms.
+2016-11-27T00:39:27+05:30 DBG  send completed
+2016-11-27T00:39:31+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:09:31.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 136,
+  "memoryUsage": 381256928,
+  "type": "liferaybeat"
+}
+2016-11-27T00:39:31+05:30 INFO Event sent
+2016-11-27T00:39:32+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:39:32+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.733977ms.
+2016-11-27T00:39:32+05:30 DBG  send completed
+2016-11-27T00:39:36+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:09:36.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 137,
+  "memoryUsage": 381305416,
+  "type": "liferaybeat"
+}
+2016-11-27T00:39:36+05:30 INFO Event sent
+2016-11-27T00:39:37+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:39:37+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.13334ms.
+2016-11-27T00:39:37+05:30 DBG  send completed
+2016-11-27T00:39:41+05:30 INFO Non-zero metrics in the last 30s: libbeat.es.publish.read_bytes=2012 libbeat.es.published_and_acked_events=6 libbeat.publisher.messages_in_worker_queues=6 libbeat.publisher.published_events=6 libbeat.es.call_count.PublishEvents=6 libbeat.es.publish.write_bytes=2760
+2016-11-27T00:39:41+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:09:41.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 138,
+  "memoryUsage": 381401104,
+  "type": "liferaybeat"
+}
+2016-11-27T00:39:41+05:30 INFO Event sent
+2016-11-27T00:39:42+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:39:42+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.016419ms.
+2016-11-27T00:39:42+05:30 DBG  send completed
+2016-11-27T00:39:46+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:09:46.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 139,
+  "memoryUsage": 381802848,
+  "type": "liferaybeat"
+}
+2016-11-27T00:39:46+05:30 INFO Event sent
+2016-11-27T00:39:47+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:39:47+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.19661ms.
+2016-11-27T00:39:47+05:30 DBG  send completed
+2016-11-27T00:39:51+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:09:51.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 140,
+  "memoryUsage": 381994856,
+  "type": "liferaybeat"
+}
+2016-11-27T00:39:51+05:30 INFO Event sent
+2016-11-27T00:39:52+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:39:52+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 3.575932ms.
+2016-11-27T00:39:52+05:30 DBG  send completed
+2016-11-27T00:39:56+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:09:56.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 141,
+  "memoryUsage": 382293176,
+  "type": "liferaybeat"
+}
+2016-11-27T00:39:56+05:30 INFO Event sent
+2016-11-27T00:39:57+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:39:57+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 3.940462ms.
+2016-11-27T00:39:57+05:30 DBG  send completed
+2016-11-27T00:40:01+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:10:01.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 142,
+  "memoryUsage": 382427344,
+  "type": "liferaybeat"
+}
+2016-11-27T00:40:01+05:30 INFO Event sent
+2016-11-27T00:40:02+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:40:02+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.529312ms.
+2016-11-27T00:40:02+05:30 DBG  send completed
+2016-11-27T00:40:06+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:10:06.836Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 143,
+  "memoryUsage": 382539472,
+  "type": "liferaybeat"
+}
+2016-11-27T00:40:06+05:30 INFO Event sent
+2016-11-27T00:40:07+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:40:07+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.036661ms.
+2016-11-27T00:40:07+05:30 DBG  send completed
+2016-11-27T00:40:11+05:30 INFO Non-zero metrics in the last 30s: libbeat.es.publish.read_bytes=2012 libbeat.es.published_and_acked_events=6 libbeat.publisher.messages_in_worker_queues=6 libbeat.es.call_count.PublishEvents=6 libbeat.es.publish.write_bytes=2760 libbeat.publisher.published_events=6
+2016-11-27T00:40:11+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:10:11.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 144,
+  "memoryUsage": 382652792,
+  "type": "liferaybeat"
+}
+2016-11-27T00:40:11+05:30 INFO Event sent
+2016-11-27T00:40:12+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:40:12+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.807189ms.
+2016-11-27T00:40:12+05:30 DBG  send completed
+2016-11-27T00:40:16+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:10:16.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 145,
+  "memoryUsage": 383016952,
+  "type": "liferaybeat"
+}
+2016-11-27T00:40:16+05:30 INFO Event sent
+2016-11-27T00:40:17+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:40:17+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 3.984401ms.
+2016-11-27T00:40:17+05:30 DBG  send completed
+2016-11-27T00:40:21+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:10:21.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 146,
+  "memoryUsage": 383061976,
+  "type": "liferaybeat"
+}
+2016-11-27T00:40:21+05:30 INFO Event sent
+2016-11-27T00:40:22+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:40:22+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 46.783515ms.
+2016-11-27T00:40:22+05:30 DBG  send completed
+2016-11-27T00:40:26+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:10:26.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 147,
+  "memoryUsage": 383360384,
+  "type": "liferaybeat"
+}
+2016-11-27T00:40:26+05:30 INFO Event sent
+2016-11-27T00:40:27+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:40:27+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.406527ms.
+2016-11-27T00:40:27+05:30 DBG  send completed
+2016-11-27T00:40:31+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:10:31.874Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 148,
+  "memoryUsage": 383418552,
+  "type": "liferaybeat"
+}
+2016-11-27T00:40:31+05:30 INFO Event sent
+2016-11-27T00:40:32+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:40:32+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.349638ms.
+2016-11-27T00:40:32+05:30 DBG  send completed
+2016-11-27T00:40:36+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:10:36.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 149,
+  "memoryUsage": 383433784,
+  "type": "liferaybeat"
+}
+2016-11-27T00:40:36+05:30 INFO Event sent
+2016-11-27T00:40:37+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:40:37+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.387345ms.
+2016-11-27T00:40:37+05:30 DBG  send completed
+2016-11-27T00:40:41+05:30 INFO Non-zero metrics in the last 30s: libbeat.publisher.messages_in_worker_queues=6 libbeat.publisher.published_events=6 libbeat.es.publish.write_bytes=2760 libbeat.es.call_count.PublishEvents=6 libbeat.es.published_and_acked_events=6 libbeat.es.publish.read_bytes=2008
+2016-11-27T00:40:41+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:10:41.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 150,
+  "memoryUsage": 383602504,
+  "type": "liferaybeat"
+}
+2016-11-27T00:40:41+05:30 INFO Event sent
+2016-11-27T00:40:42+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:40:42+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.815311ms.
+2016-11-27T00:40:42+05:30 DBG  send completed
+2016-11-27T00:40:46+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:10:46.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 151,
+  "memoryUsage": 383935576,
+  "type": "liferaybeat"
+}
+2016-11-27T00:40:46+05:30 INFO Event sent
+2016-11-27T00:40:47+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:40:47+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.506993ms.
+2016-11-27T00:40:47+05:30 DBG  send completed
+2016-11-27T00:40:51+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:10:51.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 152,
+  "memoryUsage": 384004800,
+  "type": "liferaybeat"
+}
+2016-11-27T00:40:51+05:30 INFO Event sent
+2016-11-27T00:40:52+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:40:52+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.735338ms.
+2016-11-27T00:40:52+05:30 DBG  send completed
+2016-11-27T00:40:56+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:10:56.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 153,
+  "memoryUsage": 384446544,
+  "type": "liferaybeat"
+}
+2016-11-27T00:40:56+05:30 INFO Event sent
+2016-11-27T00:40:57+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:40:57+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.206284ms.
+2016-11-27T00:40:57+05:30 DBG  send completed
+2016-11-27T00:41:01+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:11:01.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 154,
+  "memoryUsage": 384550568,
+  "type": "liferaybeat"
+}
+2016-11-27T00:41:01+05:30 INFO Event sent
+2016-11-27T00:41:02+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:41:02+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.718539ms.
+2016-11-27T00:41:02+05:30 DBG  send completed
+2016-11-27T00:41:06+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:11:06.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 155,
+  "memoryUsage": 384911608,
+  "type": "liferaybeat"
+}
+2016-11-27T00:41:06+05:30 INFO Event sent
+2016-11-27T00:41:07+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:41:07+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 3.958974ms.
+2016-11-27T00:41:07+05:30 DBG  send completed
+2016-11-27T00:41:11+05:30 INFO Non-zero metrics in the last 30s: libbeat.publisher.published_events=6 libbeat.es.publish.write_bytes=2760 libbeat.es.published_and_acked_events=6 libbeat.es.call_count.PublishEvents=6 libbeat.es.publish.read_bytes=2011 libbeat.publisher.messages_in_worker_queues=6
+2016-11-27T00:41:11+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:11:11.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 156,
+  "memoryUsage": 386105552,
+  "type": "liferaybeat"
+}
+2016-11-27T00:41:11+05:30 INFO Event sent
+2016-11-27T00:41:12+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:41:12+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.371084ms.
+2016-11-27T00:41:12+05:30 DBG  send completed
+2016-11-27T00:41:16+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:11:16.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 157,
+  "memoryUsage": 386280808,
+  "type": "liferaybeat"
+}
+2016-11-27T00:41:16+05:30 INFO Event sent
+2016-11-27T00:41:17+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:41:17+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.56836ms.
+2016-11-27T00:41:17+05:30 DBG  send completed
+2016-11-27T00:41:21+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:11:21.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 158,
+  "memoryUsage": 386290920,
+  "type": "liferaybeat"
+}
+2016-11-27T00:41:21+05:30 INFO Event sent
+2016-11-27T00:41:22+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:41:22+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 20.27915ms.
+2016-11-27T00:41:22+05:30 DBG  send completed
+2016-11-27T00:41:26+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:11:26.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 159,
+  "memoryUsage": 386724888,
+  "type": "liferaybeat"
+}
+2016-11-27T00:41:26+05:30 INFO Event sent
+2016-11-27T00:41:27+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:41:27+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.868602ms.
+2016-11-27T00:41:27+05:30 DBG  send completed
+2016-11-27T00:41:31+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:11:31.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 160,
+  "memoryUsage": 386725144,
+  "type": "liferaybeat"
+}
+2016-11-27T00:41:31+05:30 INFO Event sent
+2016-11-27T00:41:32+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:41:32+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.520908ms.
+2016-11-27T00:41:32+05:30 DBG  send completed
+2016-11-27T00:41:36+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:11:36.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 161,
+  "memoryUsage": 387220280,
+  "type": "liferaybeat"
+}
+2016-11-27T00:41:36+05:30 INFO Event sent
+2016-11-27T00:41:37+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:41:37+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 6.103396ms.
+2016-11-27T00:41:37+05:30 DBG  send completed
+2016-11-27T00:41:41+05:30 INFO Non-zero metrics in the last 30s: libbeat.es.call_count.PublishEvents=6 libbeat.publisher.published_events=6 libbeat.es.publish.write_bytes=2760 libbeat.es.published_and_acked_events=6 libbeat.es.publish.read_bytes=2013 libbeat.publisher.messages_in_worker_queues=6
+2016-11-27T00:41:41+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:11:41.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 162,
+  "memoryUsage": 387315304,
+  "type": "liferaybeat"
+}
+2016-11-27T00:41:41+05:30 INFO Event sent
+2016-11-27T00:41:42+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:41:42+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 3.739521ms.
+2016-11-27T00:41:42+05:30 DBG  send completed
+2016-11-27T00:41:46+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:11:46.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 163,
+  "memoryUsage": 387379896,
+  "type": "liferaybeat"
+}
+2016-11-27T00:41:46+05:30 INFO Event sent
+2016-11-27T00:41:47+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:41:47+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.677018ms.
+2016-11-27T00:41:47+05:30 DBG  send completed
+2016-11-27T00:41:51+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:11:51.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 164,
+  "memoryUsage": 387441464,
+  "type": "liferaybeat"
+}
+2016-11-27T00:41:51+05:30 INFO Event sent
+2016-11-27T00:41:52+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:41:52+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.457889ms.
+2016-11-27T00:41:52+05:30 DBG  send completed
+2016-11-27T00:41:56+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:11:56.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 165,
+  "memoryUsage": 387751688,
+  "type": "liferaybeat"
+}
+2016-11-27T00:41:56+05:30 INFO Event sent
+2016-11-27T00:41:57+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:41:57+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.733216ms.
+2016-11-27T00:41:57+05:30 DBG  send completed
+2016-11-27T00:42:01+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:12:01.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 166,
+  "memoryUsage": 387751688,
+  "type": "liferaybeat"
+}
+2016-11-27T00:42:01+05:30 INFO Event sent
+2016-11-27T00:42:02+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:42:02+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 3.872135ms.
+2016-11-27T00:42:02+05:30 DBG  send completed
+2016-11-27T00:42:06+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:12:06.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 167,
+  "memoryUsage": 388084608,
+  "type": "liferaybeat"
+}
+2016-11-27T00:42:06+05:30 INFO Event sent
+2016-11-27T00:42:07+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:42:07+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 3.896989ms.
+2016-11-27T00:42:07+05:30 DBG  send completed
+2016-11-27T00:42:11+05:30 INFO Non-zero metrics in the last 30s: libbeat.publisher.published_events=6 libbeat.es.published_and_acked_events=6 libbeat.es.call_count.PublishEvents=6 libbeat.es.publish.read_bytes=2015 libbeat.es.publish.write_bytes=2760 libbeat.publisher.messages_in_worker_queues=6
+2016-11-27T00:42:11+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:12:11.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 168,
+  "memoryUsage": 388188096,
+  "type": "liferaybeat"
+}
+2016-11-27T00:42:11+05:30 INFO Event sent
+2016-11-27T00:42:12+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:42:12+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.189945ms.
+2016-11-27T00:42:12+05:30 DBG  send completed
+2016-11-27T00:42:16+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:12:16.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 169,
+  "memoryUsage": 388190416,
+  "type": "liferaybeat"
+}
+2016-11-27T00:42:16+05:30 INFO Event sent
+2016-11-27T00:42:17+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:42:17+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.022315ms.
+2016-11-27T00:42:17+05:30 DBG  send completed
+2016-11-27T00:42:21+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:12:21.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 170,
+  "memoryUsage": 388325488,
+  "type": "liferaybeat"
+}
+2016-11-27T00:42:21+05:30 INFO Event sent
+2016-11-27T00:42:22+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:42:22+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.39989ms.
+2016-11-27T00:42:22+05:30 DBG  send completed
+2016-11-27T00:42:26+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:12:26.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 171,
+  "memoryUsage": 388712672,
+  "type": "liferaybeat"
+}
+2016-11-27T00:42:26+05:30 INFO Event sent
+2016-11-27T00:42:27+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:42:27+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.902004ms.
+2016-11-27T00:42:27+05:30 DBG  send completed
+2016-11-27T00:42:31+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:12:31.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 172,
+  "memoryUsage": 388815968,
+  "type": "liferaybeat"
+}
+2016-11-27T00:42:31+05:30 INFO Event sent
+2016-11-27T00:42:32+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:42:32+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.571912ms.
+2016-11-27T00:42:32+05:30 DBG  send completed
+2016-11-27T00:42:36+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:12:36.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 173,
+  "memoryUsage": 389136864,
+  "type": "liferaybeat"
+}
+2016-11-27T00:42:36+05:30 INFO Event sent
+2016-11-27T00:42:37+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:42:37+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.432045ms.
+2016-11-27T00:42:37+05:30 DBG  send completed
+2016-11-27T00:42:41+05:30 INFO Non-zero metrics in the last 30s: libbeat.es.publish.write_bytes=2760 libbeat.publisher.messages_in_worker_queues=6 libbeat.publisher.published_events=6 libbeat.es.call_count.PublishEvents=6 libbeat.es.publish.read_bytes=2012 libbeat.es.published_and_acked_events=6
+2016-11-27T00:42:41+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:12:41.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 174,
+  "memoryUsage": 389271760,
+  "type": "liferaybeat"
+}
+2016-11-27T00:42:41+05:30 INFO Event sent
+2016-11-27T00:42:42+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:42:42+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.62355ms.
+2016-11-27T00:42:42+05:30 DBG  send completed
+2016-11-27T00:42:46+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:12:46.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 175,
+  "memoryUsage": 389369072,
+  "type": "liferaybeat"
+}
+2016-11-27T00:42:46+05:30 INFO Event sent
+2016-11-27T00:42:47+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:42:47+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.768415ms.
+2016-11-27T00:42:47+05:30 DBG  send completed
+2016-11-27T00:42:51+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:12:51.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 176,
+  "memoryUsage": 389381848,
+  "type": "liferaybeat"
+}
+2016-11-27T00:42:51+05:30 INFO Event sent
+2016-11-27T00:42:52+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:42:52+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.398569ms.
+2016-11-27T00:42:52+05:30 DBG  send completed
+2016-11-27T00:42:56+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:12:56.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 177,
+  "memoryUsage": 389682832,
+  "type": "liferaybeat"
+}
+2016-11-27T00:42:56+05:30 INFO Event sent
+2016-11-27T00:42:57+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:42:57+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.544699ms.
+2016-11-27T00:42:57+05:30 DBG  send completed
+2016-11-27T00:43:01+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:13:01.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 178,
+  "memoryUsage": 389717216,
+  "type": "liferaybeat"
+}
+2016-11-27T00:43:01+05:30 INFO Event sent
+2016-11-27T00:43:02+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:43:02+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.628118ms.
+2016-11-27T00:43:02+05:30 DBG  send completed
+2016-11-27T00:43:06+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:13:06.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 179,
+  "memoryUsage": 390092800,
+  "type": "liferaybeat"
+}
+2016-11-27T00:43:06+05:30 INFO Event sent
+2016-11-27T00:43:07+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:43:07+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.418704ms.
+2016-11-27T00:43:07+05:30 DBG  send completed
+2016-11-27T00:43:11+05:30 INFO Non-zero metrics in the last 30s: libbeat.publisher.published_events=6 libbeat.es.call_count.PublishEvents=6 libbeat.es.published_and_acked_events=6 libbeat.publisher.messages_in_worker_queues=6 libbeat.es.publish.read_bytes=2008 libbeat.es.publish.write_bytes=2760
+2016-11-27T00:43:11+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:13:11.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 180,
+  "memoryUsage": 390127056,
+  "type": "liferaybeat"
+}
+2016-11-27T00:43:11+05:30 INFO Event sent
+2016-11-27T00:43:12+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:43:12+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 34.646589ms.
+2016-11-27T00:43:12+05:30 DBG  send completed
+2016-11-27T00:43:16+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:13:16.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 181,
+  "memoryUsage": 390215232,
+  "type": "liferaybeat"
+}
+2016-11-27T00:43:16+05:30 INFO Event sent
+2016-11-27T00:43:17+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:43:17+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.040651ms.
+2016-11-27T00:43:17+05:30 DBG  send completed
+2016-11-27T00:43:21+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:13:21.848Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 182,
+  "memoryUsage": 390359200,
+  "type": "liferaybeat"
+}
+2016-11-27T00:43:21+05:30 INFO Event sent
+2016-11-27T00:43:22+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:43:22+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 23.745338ms.
+2016-11-27T00:43:22+05:30 DBG  send completed
+2016-11-27T00:43:26+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:13:26.836Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 183,
+  "memoryUsage": 390756864,
+  "type": "liferaybeat"
+}
+2016-11-27T00:43:26+05:30 INFO Event sent
+2016-11-27T00:43:27+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:43:27+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 31.500228ms.
+2016-11-27T00:43:27+05:30 DBG  send completed
+2016-11-27T00:43:31+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:13:31.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 184,
+  "memoryUsage": 390827144,
+  "type": "liferaybeat"
+}
+2016-11-27T00:43:31+05:30 INFO Event sent
+2016-11-27T00:43:32+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:43:32+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 79.409481ms.
+2016-11-27T00:43:32+05:30 DBG  send completed
+2016-11-27T00:43:36+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:13:36.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 185,
+  "memoryUsage": 391335008,
+  "type": "liferaybeat"
+}
+2016-11-27T00:43:36+05:30 INFO Event sent
+2016-11-27T00:43:37+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:43:37+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.763483ms.
+2016-11-27T00:43:37+05:30 DBG  send completed
+2016-11-27T00:43:41+05:30 INFO Non-zero metrics in the last 30s: libbeat.publisher.messages_in_worker_queues=6 libbeat.es.publish.read_bytes=2015 libbeat.es.call_count.PublishEvents=6 libbeat.es.publish.write_bytes=2760 libbeat.es.published_and_acked_events=6 libbeat.publisher.published_events=6
+2016-11-27T00:43:41+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:13:41.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 186,
+  "memoryUsage": 391687880,
+  "type": "liferaybeat"
+}
+2016-11-27T00:43:41+05:30 INFO Event sent
+2016-11-27T00:43:42+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:43:42+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 77.698422ms.
+2016-11-27T00:43:42+05:30 DBG  send completed
+2016-11-27T00:43:46+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:13:46.842Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 187,
+  "memoryUsage": 392052896,
+  "type": "liferaybeat"
+}
+2016-11-27T00:43:46+05:30 INFO Event sent
+2016-11-27T00:43:47+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:43:47+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 3.490402ms.
+2016-11-27T00:43:47+05:30 DBG  send completed
+2016-11-27T00:43:51+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:13:51.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 188,
+  "memoryUsage": 392365504,
+  "type": "liferaybeat"
+}
+2016-11-27T00:43:51+05:30 INFO Event sent
+2016-11-27T00:43:52+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:43:52+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 3.727199ms.
+2016-11-27T00:43:52+05:30 DBG  send completed
+2016-11-27T00:43:56+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:13:56.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 189,
+  "memoryUsage": 392470144,
+  "type": "liferaybeat"
+}
+2016-11-27T00:43:56+05:30 INFO Event sent
+2016-11-27T00:43:57+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:43:57+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 25.547695ms.
+2016-11-27T00:43:57+05:30 DBG  send completed
+2016-11-27T00:44:01+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:14:01.836Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 190,
+  "memoryUsage": 392550648,
+  "type": "liferaybeat"
+}
+2016-11-27T00:44:01+05:30 INFO Event sent
+2016-11-27T00:44:02+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:44:02+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.076262ms.
+2016-11-27T00:44:02+05:30 DBG  send completed
+2016-11-27T00:44:06+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:14:06.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 191,
+  "memoryUsage": 392883776,
+  "type": "liferaybeat"
+}
+2016-11-27T00:44:06+05:30 INFO Event sent
+2016-11-27T00:44:07+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:44:07+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 3.946259ms.
+2016-11-27T00:44:07+05:30 DBG  send completed
+2016-11-27T00:44:11+05:30 INFO Non-zero metrics in the last 30s: libbeat.es.publish.read_bytes=2018 libbeat.es.publish.write_bytes=2760 libbeat.publisher.messages_in_worker_queues=6 libbeat.es.call_count.PublishEvents=6 libbeat.publisher.published_events=6 libbeat.es.published_and_acked_events=6
+2016-11-27T00:44:11+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:14:11.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 192,
+  "memoryUsage": 392907888,
+  "type": "liferaybeat"
+}
+2016-11-27T00:44:11+05:30 INFO Event sent
+2016-11-27T00:44:12+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:44:12+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.311447ms.
+2016-11-27T00:44:12+05:30 DBG  send completed
+2016-11-27T00:44:16+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:14:16.836Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 193,
+  "memoryUsage": 393396960,
+  "type": "liferaybeat"
+}
+2016-11-27T00:44:16+05:30 INFO Event sent
+2016-11-27T00:44:17+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:44:17+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.178259ms.
+2016-11-27T00:44:17+05:30 DBG  send completed
+2016-11-27T00:44:21+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:14:21.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 194,
+  "memoryUsage": 393441392,
+  "type": "liferaybeat"
+}
+2016-11-27T00:44:21+05:30 INFO Event sent
+2016-11-27T00:44:22+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:44:22+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.396933ms.
+2016-11-27T00:44:22+05:30 DBG  send completed
+2016-11-27T00:44:26+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:14:26.836Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 195,
+  "memoryUsage": 393504208,
+  "type": "liferaybeat"
+}
+2016-11-27T00:44:26+05:30 INFO Event sent
+2016-11-27T00:44:27+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:44:27+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 3.699218ms.
+2016-11-27T00:44:27+05:30 DBG  send completed
+2016-11-27T00:44:31+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:14:31.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 196,
+  "memoryUsage": 393538464,
+  "type": "liferaybeat"
+}
+2016-11-27T00:44:31+05:30 INFO Event sent
+2016-11-27T00:44:32+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:44:32+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.877746ms.
+2016-11-27T00:44:32+05:30 DBG  send completed
+2016-11-27T00:44:36+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:14:36.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 197,
+  "memoryUsage": 393850112,
+  "type": "liferaybeat"
+}
+2016-11-27T00:44:36+05:30 INFO Event sent
+2016-11-27T00:44:37+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:44:37+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 23.936805ms.
+2016-11-27T00:44:37+05:30 DBG  send completed
+2016-11-27T00:44:41+05:30 INFO Non-zero metrics in the last 30s: libbeat.es.call_count.PublishEvents=6 libbeat.publisher.messages_in_worker_queues=6 libbeat.publisher.published_events=6 libbeat.es.publish.read_bytes=2014 libbeat.es.publish.write_bytes=2760 libbeat.es.published_and_acked_events=6
+2016-11-27T00:44:41+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:14:41.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 198,
+  "memoryUsage": 393917192,
+  "type": "liferaybeat"
+}
+2016-11-27T00:44:41+05:30 INFO Event sent
+2016-11-27T00:44:42+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:44:42+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 91.187154ms.
+2016-11-27T00:44:42+05:30 DBG  send completed
+2016-11-27T00:44:46+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:14:46.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 199,
+  "memoryUsage": 394250032,
+  "type": "liferaybeat"
+}
+2016-11-27T00:44:46+05:30 INFO Event sent
+2016-11-27T00:44:47+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:44:47+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 81.572343ms.
+2016-11-27T00:44:47+05:30 DBG  send completed
+2016-11-27T00:44:51+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:14:51.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 200,
+  "memoryUsage": 394330776,
+  "type": "liferaybeat"
+}
+2016-11-27T00:44:51+05:30 INFO Event sent
+2016-11-27T00:44:52+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:44:52+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 3.568654ms.
+2016-11-27T00:44:52+05:30 DBG  send completed
+2016-11-27T00:44:56+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:14:56.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 201,
+  "memoryUsage": 394398096,
+  "type": "liferaybeat"
+}
+2016-11-27T00:44:56+05:30 INFO Event sent
+2016-11-27T00:44:57+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:44:57+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 28.969536ms.
+2016-11-27T00:44:57+05:30 DBG  send completed
+2016-11-27T00:45:01+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:15:01.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 202,
+  "memoryUsage": 394432480,
+  "type": "liferaybeat"
+}
+2016-11-27T00:45:01+05:30 INFO Event sent
+2016-11-27T00:45:02+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:45:02+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 7.131419ms.
+2016-11-27T00:45:02+05:30 DBG  send completed
+2016-11-27T00:45:06+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:15:06.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 203,
+  "memoryUsage": 394819552,
+  "type": "liferaybeat"
+}
+2016-11-27T00:45:06+05:30 INFO Event sent
+2016-11-27T00:45:07+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:45:07+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.501183ms.
+2016-11-27T00:45:07+05:30 DBG  send completed
+2016-11-27T00:45:11+05:30 INFO Non-zero metrics in the last 30s: libbeat.es.call_count.PublishEvents=6 libbeat.es.publish.write_bytes=2760 libbeat.publisher.published_events=6 libbeat.es.publish.read_bytes=2019 libbeat.publisher.messages_in_worker_queues=6 libbeat.es.published_and_acked_events=6
+2016-11-27T00:45:11+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:15:11.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 204,
+  "memoryUsage": 394939552,
+  "type": "liferaybeat"
+}
+2016-11-27T00:45:11+05:30 INFO Event sent
+2016-11-27T00:45:12+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:45:13+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 260.493689ms.
+2016-11-27T00:45:13+05:30 DBG  send completed
+2016-11-27T00:45:16+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:15:16.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 205,
+  "memoryUsage": 395238032,
+  "type": "liferaybeat"
+}
+2016-11-27T00:45:16+05:30 INFO Event sent
+2016-11-27T00:45:17+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:45:17+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 26.042021ms.
+2016-11-27T00:45:17+05:30 DBG  send completed
+2016-11-27T00:45:21+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:15:21.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 206,
+  "memoryUsage": 395310928,
+  "type": "liferaybeat"
+}
+2016-11-27T00:45:21+05:30 INFO Event sent
+2016-11-27T00:45:22+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:45:22+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 26.155412ms.
+2016-11-27T00:45:22+05:30 DBG  send completed
+2016-11-27T00:45:26+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:15:26.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 207,
+  "memoryUsage": 395345440,
+  "type": "liferaybeat"
+}
+2016-11-27T00:45:26+05:30 INFO Event sent
+2016-11-27T00:45:27+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:45:27+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.125188ms.
+2016-11-27T00:45:27+05:30 DBG  send completed
+2016-11-27T00:45:31+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:15:31.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 208,
+  "memoryUsage": 395525696,
+  "type": "liferaybeat"
+}
+2016-11-27T00:45:31+05:30 INFO Event sent
+2016-11-27T00:45:32+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:45:32+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 30.189478ms.
+2016-11-27T00:45:32+05:30 DBG  send completed
+2016-11-27T00:45:36+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:15:36.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 209,
+  "memoryUsage": 395919160,
+  "type": "liferaybeat"
+}
+2016-11-27T00:45:36+05:30 INFO Event sent
+2016-11-27T00:45:37+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:45:37+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 143.987701ms.
+2016-11-27T00:45:37+05:30 DBG  send completed
+2016-11-27T00:45:41+05:30 INFO Non-zero metrics in the last 30s: libbeat.es.published_and_acked_events=6 libbeat.es.publish.write_bytes=2760 libbeat.es.call_count.PublishEvents=6 libbeat.es.publish.read_bytes=2024 libbeat.publisher.published_events=6 libbeat.publisher.messages_in_worker_queues=6
+2016-11-27T00:45:41+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:15:41.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 210,
+  "memoryUsage": 396017800,
+  "type": "liferaybeat"
+}
+2016-11-27T00:45:41+05:30 INFO Event sent
+2016-11-27T00:45:42+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:45:42+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.619163ms.
+2016-11-27T00:45:42+05:30 DBG  send completed
+2016-11-27T00:45:46+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:15:46.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 211,
+  "memoryUsage": 396381560,
+  "type": "liferaybeat"
+}
+2016-11-27T00:45:46+05:30 INFO Event sent
+2016-11-27T00:45:47+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:45:47+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.07111ms.
+2016-11-27T00:45:47+05:30 DBG  send completed
+2016-11-27T00:45:51+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:15:51.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 212,
+  "memoryUsage": 396484864,
+  "type": "liferaybeat"
+}
+2016-11-27T00:45:51+05:30 INFO Event sent
+2016-11-27T00:45:52+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:45:52+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.067068ms.
+2016-11-27T00:45:52+05:30 DBG  send completed
+2016-11-27T00:45:56+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:15:56.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 213,
+  "memoryUsage": 396807072,
+  "type": "liferaybeat"
+}
+2016-11-27T00:45:56+05:30 INFO Event sent
+2016-11-27T00:45:57+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:45:57+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 20.942044ms.
+2016-11-27T00:45:57+05:30 DBG  send completed
+2016-11-27T00:46:01+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:16:01.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 214,
+  "memoryUsage": 396876792,
+  "type": "liferaybeat"
+}
+2016-11-27T00:46:01+05:30 INFO Event sent
+2016-11-27T00:46:02+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:46:02+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 57.654945ms.
+2016-11-27T00:46:02+05:30 DBG  send completed
+2016-11-27T00:46:06+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:16:06.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 215,
+  "memoryUsage": 396911304,
+  "type": "liferaybeat"
+}
+2016-11-27T00:46:06+05:30 INFO Event sent
+2016-11-27T00:46:07+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:46:07+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 54.094728ms.
+2016-11-27T00:46:07+05:30 DBG  send completed
+2016-11-27T00:46:11+05:30 INFO Non-zero metrics in the last 30s: libbeat.publisher.messages_in_worker_queues=6 libbeat.es.call_count.PublishEvents=6 libbeat.es.published_and_acked_events=6 libbeat.es.publish.write_bytes=2760 libbeat.es.publish.read_bytes=2016 libbeat.publisher.published_events=6
+2016-11-27T00:46:11+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:16:11.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 216,
+  "memoryUsage": 396911560,
+  "type": "liferaybeat"
+}
+2016-11-27T00:46:11+05:30 INFO Event sent
+2016-11-27T00:46:12+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:46:12+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 11.972287ms.
+2016-11-27T00:46:12+05:30 DBG  send completed
+2016-11-27T00:46:16+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:16:16.836Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 217,
+  "memoryUsage": 397212280,
+  "type": "liferaybeat"
+}
+2016-11-27T00:46:16+05:30 INFO Event sent
+2016-11-27T00:46:17+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:46:17+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 78.096432ms.
+2016-11-27T00:46:17+05:30 DBG  send completed
+2016-11-27T00:46:21+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:16:21.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 218,
+  "memoryUsage": 397296688,
+  "type": "liferaybeat"
+}
+2016-11-27T00:46:21+05:30 INFO Event sent
+2016-11-27T00:46:22+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:46:22+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 97.621439ms.
+2016-11-27T00:46:22+05:30 DBG  send completed
+2016-11-27T00:46:26+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:16:26.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 219,
+  "memoryUsage": 397594968,
+  "type": "liferaybeat"
+}
+2016-11-27T00:46:26+05:30 INFO Event sent
+2016-11-27T00:46:27+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:46:27+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 103.385829ms.
+2016-11-27T00:46:27+05:30 DBG  send completed
+2016-11-27T00:46:31+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:16:31.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 220,
+  "memoryUsage": 397709752,
+  "type": "liferaybeat"
+}
+2016-11-27T00:46:31+05:30 INFO Event sent
+2016-11-27T00:46:32+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:46:32+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 83.226279ms.
+2016-11-27T00:46:32+05:30 DBG  send completed
+2016-11-27T00:46:36+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:16:36.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 221,
+  "memoryUsage": 397881432,
+  "type": "liferaybeat"
+}
+2016-11-27T00:46:36+05:30 INFO Event sent
+2016-11-27T00:46:37+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:46:37+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 84.943014ms.
+2016-11-27T00:46:37+05:30 DBG  send completed
+2016-11-27T00:46:41+05:30 INFO Non-zero metrics in the last 30s: libbeat.es.call_count.PublishEvents=6 libbeat.es.publish.read_bytes=2024 libbeat.es.published_and_acked_events=6 libbeat.es.publish.write_bytes=2760 libbeat.publisher.messages_in_worker_queues=6 libbeat.publisher.published_events=6
+2016-11-27T00:46:41+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:16:41.836Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 222,
+  "memoryUsage": 398014856,
+  "type": "liferaybeat"
+}
+2016-11-27T00:46:41+05:30 INFO Event sent
+2016-11-27T00:46:42+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:46:42+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 24.240517ms.
+2016-11-27T00:46:42+05:30 DBG  send completed
+2016-11-27T00:46:46+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:16:46.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 223,
+  "memoryUsage": 398436232,
+  "type": "liferaybeat"
+}
+2016-11-27T00:46:46+05:30 INFO Event sent
+2016-11-27T00:46:47+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:46:47+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.264647ms.
+2016-11-27T00:46:47+05:30 DBG  send completed
+2016-11-27T00:46:51+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:16:51.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 224,
+  "memoryUsage": 398436488,
+  "type": "liferaybeat"
+}
+2016-11-27T00:46:51+05:30 INFO Event sent
+2016-11-27T00:46:52+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:46:52+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.462075ms.
+2016-11-27T00:46:52+05:30 DBG  send completed
+2016-11-27T00:46:56+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:16:56.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 225,
+  "memoryUsage": 398799904,
+  "type": "liferaybeat"
+}
+2016-11-27T00:46:56+05:30 INFO Event sent
+2016-11-27T00:46:57+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:46:57+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 3.616003ms.
+2016-11-27T00:46:57+05:30 DBG  send completed
+2016-11-27T00:47:01+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:17:01.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 226,
+  "memoryUsage": 398834288,
+  "type": "liferaybeat"
+}
+2016-11-27T00:47:01+05:30 INFO Event sent
+2016-11-27T00:47:02+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:47:02+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.915427ms.
+2016-11-27T00:47:02+05:30 DBG  send completed
+2016-11-27T00:47:06+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:17:06.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 227,
+  "memoryUsage": 399009376,
+  "type": "liferaybeat"
+}
+2016-11-27T00:47:06+05:30 INFO Event sent
+2016-11-27T00:47:07+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:47:07+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.248757ms.
+2016-11-27T00:47:07+05:30 DBG  send completed
+2016-11-27T00:47:11+05:30 INFO Non-zero metrics in the last 30s: libbeat.es.published_and_acked_events=6 libbeat.publisher.published_events=6 libbeat.es.publish.read_bytes=2013 libbeat.es.publish.write_bytes=2760 libbeat.publisher.messages_in_worker_queues=6 libbeat.es.call_count.PublishEvents=6
+2016-11-27T00:47:11+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:17:11.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 228,
+  "memoryUsage": 399158840,
+  "type": "liferaybeat"
+}
+2016-11-27T00:47:11+05:30 INFO Event sent
+2016-11-27T00:47:12+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:47:12+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.329583ms.
+2016-11-27T00:47:12+05:30 DBG  send completed
+2016-11-27T00:47:16+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:17:16.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 229,
+  "memoryUsage": 399534624,
+  "type": "liferaybeat"
+}
+2016-11-27T00:47:16+05:30 INFO Event sent
+2016-11-27T00:47:17+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:47:17+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.834077ms.
+2016-11-27T00:47:17+05:30 DBG  send completed
+2016-11-27T00:47:21+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:17:21.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 230,
+  "memoryUsage": 399544736,
+  "type": "liferaybeat"
+}
+2016-11-27T00:47:21+05:30 INFO Event sent
+2016-11-27T00:47:22+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:47:22+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 3.815704ms.
+2016-11-27T00:47:22+05:30 DBG  send completed
+2016-11-27T00:47:26+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:17:26.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 231,
+  "memoryUsage": 399942680,
+  "type": "liferaybeat"
+}
+2016-11-27T00:47:26+05:30 INFO Event sent
+2016-11-27T00:47:27+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:47:27+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.117872ms.
+2016-11-27T00:47:27+05:30 DBG  send completed
+2016-11-27T00:47:31+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:17:31.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 232,
+  "memoryUsage": 399942936,
+  "type": "liferaybeat"
+}
+2016-11-27T00:47:31+05:30 INFO Event sent
+2016-11-27T00:47:32+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:47:32+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 101.711381ms.
+2016-11-27T00:47:32+05:30 DBG  send completed
+2016-11-27T00:47:36+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:17:36.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 233,
+  "memoryUsage": 400025184,
+  "type": "liferaybeat"
+}
+2016-11-27T00:47:36+05:30 INFO Event sent
+2016-11-27T00:47:37+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:47:37+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 3.635958ms.
+2016-11-27T00:47:37+05:30 DBG  send completed
+2016-11-27T00:47:41+05:30 INFO Non-zero metrics in the last 30s: libbeat.publisher.published_events=6 libbeat.es.call_count.PublishEvents=6 libbeat.es.publish.read_bytes=2017 libbeat.es.published_and_acked_events=6 libbeat.publisher.messages_in_worker_queues=6 libbeat.es.publish.write_bytes=2760
+2016-11-27T00:47:41+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:17:41.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 234,
+  "memoryUsage": 400219272,
+  "type": "liferaybeat"
+}
+2016-11-27T00:47:41+05:30 INFO Event sent
+2016-11-27T00:47:42+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:47:42+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.232055ms.
+2016-11-27T00:47:42+05:30 DBG  send completed
+2016-11-27T00:47:46+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:17:46.836Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 235,
+  "memoryUsage": 400580672,
+  "type": "liferaybeat"
+}
+2016-11-27T00:47:46+05:30 INFO Event sent
+2016-11-27T00:47:47+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:47:47+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.815818ms.
+2016-11-27T00:47:47+05:30 DBG  send completed
+2016-11-27T00:47:51+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:17:51.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 236,
+  "memoryUsage": 400679192,
+  "type": "liferaybeat"
+}
+2016-11-27T00:47:51+05:30 INFO Event sent
+2016-11-27T00:47:52+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:47:52+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.194076ms.
+2016-11-27T00:47:52+05:30 DBG  send completed
+2016-11-27T00:47:56+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:17:56.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 237,
+  "memoryUsage": 400977680,
+  "type": "liferaybeat"
+}
+2016-11-27T00:47:56+05:30 INFO Event sent
+2016-11-27T00:47:57+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:47:57+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.74118ms.
+2016-11-27T00:47:57+05:30 DBG  send completed
+2016-11-27T00:48:01+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:18:01.836Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 238,
+  "memoryUsage": 400977680,
+  "type": "liferaybeat"
+}
+2016-11-27T00:48:01+05:30 INFO Event sent
+2016-11-27T00:48:02+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:48:02+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.657053ms.
+2016-11-27T00:48:02+05:30 DBG  send completed
+2016-11-27T00:48:06+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:18:06.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 239,
+  "memoryUsage": 401101896,
+  "type": "liferaybeat"
+}
+2016-11-27T00:48:06+05:30 INFO Event sent
+2016-11-27T00:48:07+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:48:07+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.899689ms.
+2016-11-27T00:48:07+05:30 DBG  send completed
+2016-11-27T00:48:11+05:30 INFO Non-zero metrics in the last 30s: libbeat.es.call_count.PublishEvents=6 libbeat.es.publish.read_bytes=2014 libbeat.es.publish.write_bytes=2760 libbeat.publisher.messages_in_worker_queues=6 libbeat.es.published_and_acked_events=6 libbeat.publisher.published_events=6
+2016-11-27T00:48:11+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:18:11.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 240,
+  "memoryUsage": 401182752,
+  "type": "liferaybeat"
+}
+2016-11-27T00:48:11+05:30 INFO Event sent
+2016-11-27T00:48:12+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:48:12+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.407746ms.
+2016-11-27T00:48:12+05:30 DBG  send completed
+2016-11-27T00:48:16+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:18:16.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 241,
+  "memoryUsage": 401564152,
+  "type": "liferaybeat"
+}
+2016-11-27T00:48:16+05:30 INFO Event sent
+2016-11-27T00:48:17+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:48:17+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.602242ms.
+2016-11-27T00:48:17+05:30 DBG  send completed
+2016-11-27T00:48:21+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:18:21.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 242,
+  "memoryUsage": 401687632,
+  "type": "liferaybeat"
+}
+2016-11-27T00:48:21+05:30 INFO Event sent
+2016-11-27T00:48:22+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:48:22+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.630964ms.
+2016-11-27T00:48:22+05:30 DBG  send completed
+2016-11-27T00:48:26+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:18:26.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 243,
+  "memoryUsage": 401986264,
+  "type": "liferaybeat"
+}
+2016-11-27T00:48:26+05:30 INFO Event sent
+2016-11-27T00:48:27+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:48:27+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.761674ms.
+2016-11-27T00:48:27+05:30 DBG  send completed
+2016-11-27T00:48:31+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:18:31.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 244,
+  "memoryUsage": 402178720,
+  "type": "liferaybeat"
+}
+2016-11-27T00:48:31+05:30 INFO Event sent
+2016-11-27T00:48:32+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:48:32+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.412503ms.
+2016-11-27T00:48:32+05:30 DBG  send completed
+2016-11-27T00:48:36+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:18:36.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 245,
+  "memoryUsage": 402321336,
+  "type": "liferaybeat"
+}
+2016-11-27T00:48:36+05:30 INFO Event sent
+2016-11-27T00:48:37+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:48:37+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.027873ms.
+2016-11-27T00:48:37+05:30 DBG  send completed
+2016-11-27T00:48:41+05:30 INFO Non-zero metrics in the last 30s: libbeat.es.publish.write_bytes=2760 libbeat.es.call_count.PublishEvents=6 libbeat.es.publish.read_bytes=2013 libbeat.es.published_and_acked_events=6 libbeat.publisher.messages_in_worker_queues=6 libbeat.publisher.published_events=6
+2016-11-27T00:48:41+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:18:41.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 246,
+  "memoryUsage": 402385184,
+  "type": "liferaybeat"
+}
+2016-11-27T00:48:41+05:30 INFO Event sent
+2016-11-27T00:48:42+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:48:42+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.630586ms.
+2016-11-27T00:48:42+05:30 DBG  send completed
+2016-11-27T00:48:46+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:18:46.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 247,
+  "memoryUsage": 402772968,
+  "type": "liferaybeat"
+}
+2016-11-27T00:48:46+05:30 INFO Event sent
+2016-11-27T00:48:47+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:48:47+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.667112ms.
+2016-11-27T00:48:47+05:30 DBG  send completed
+2016-11-27T00:48:51+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:18:51.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 248,
+  "memoryUsage": 402903744,
+  "type": "liferaybeat"
+}
+2016-11-27T00:48:51+05:30 INFO Event sent
+2016-11-27T00:48:52+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:48:52+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.085595ms.
+2016-11-27T00:48:52+05:30 DBG  send completed
+2016-11-27T00:48:56+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:18:56.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 249,
+  "memoryUsage": 403216776,
+  "type": "liferaybeat"
+}
+2016-11-27T00:48:56+05:30 INFO Event sent
+2016-11-27T00:48:57+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:48:57+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.075214ms.
+2016-11-27T00:48:57+05:30 DBG  send completed
+2016-11-27T00:49:01+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:19:01.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 250,
+  "memoryUsage": 403331688,
+  "type": "liferaybeat"
+}
+2016-11-27T00:49:01+05:30 INFO Event sent
+2016-11-27T00:49:02+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:49:02+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.13541ms.
+2016-11-27T00:49:02+05:30 DBG  send completed
+2016-11-27T00:49:06+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:19:06.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 251,
+  "memoryUsage": 403424104,
+  "type": "liferaybeat"
+}
+2016-11-27T00:49:06+05:30 INFO Event sent
+2016-11-27T00:49:07+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:49:07+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.950688ms.
+2016-11-27T00:49:07+05:30 DBG  send completed
+2016-11-27T00:49:11+05:30 INFO Non-zero metrics in the last 30s: libbeat.publisher.messages_in_worker_queues=6 libbeat.es.call_count.PublishEvents=6 libbeat.es.publish.write_bytes=2760 libbeat.publisher.published_events=6 libbeat.es.publish.read_bytes=2015 libbeat.es.published_and_acked_events=6
+2016-11-27T00:49:11+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:19:11.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 252,
+  "memoryUsage": 403527280,
+  "type": "liferaybeat"
+}
+2016-11-27T00:49:11+05:30 INFO Event sent
+2016-11-27T00:49:12+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:49:12+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 3.95506ms.
+2016-11-27T00:49:12+05:30 DBG  send completed
+2016-11-27T00:49:16+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:19:16.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 253,
+  "memoryUsage": 403853248,
+  "type": "liferaybeat"
+}
+2016-11-27T00:49:16+05:30 INFO Event sent
+2016-11-27T00:49:17+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:49:17+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.581177ms.
+2016-11-27T00:49:17+05:30 DBG  send completed
+2016-11-27T00:49:21+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:19:21.836Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 254,
+  "memoryUsage": 403863304,
+  "type": "liferaybeat"
+}
+2016-11-27T00:49:21+05:30 INFO Event sent
+2016-11-27T00:49:22+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:49:22+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.795833ms.
+2016-11-27T00:49:22+05:30 DBG  send completed
+2016-11-27T00:49:26+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:19:26.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 255,
+  "memoryUsage": 404289896,
+  "type": "liferaybeat"
+}
+2016-11-27T00:49:26+05:30 INFO Event sent
+2016-11-27T00:49:27+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:49:27+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.196885ms.
+2016-11-27T00:49:27+05:30 DBG  send completed
+2016-11-27T00:49:31+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:19:31.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 256,
+  "memoryUsage": 404290152,
+  "type": "liferaybeat"
+}
+2016-11-27T00:49:31+05:30 INFO Event sent
+2016-11-27T00:49:32+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:49:32+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.460484ms.
+2016-11-27T00:49:32+05:30 DBG  send completed
+2016-11-27T00:49:36+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:19:36.844Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 257,
+  "memoryUsage": 404671384,
+  "type": "liferaybeat"
+}
+2016-11-27T00:49:36+05:30 INFO Event sent
+2016-11-27T00:49:37+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:49:37+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.400993ms.
+2016-11-27T00:49:37+05:30 DBG  send completed
+2016-11-27T00:49:41+05:30 INFO Non-zero metrics in the last 30s: libbeat.publisher.messages_in_worker_queues=6 libbeat.es.published_and_acked_events=6 libbeat.es.call_count.PublishEvents=6 libbeat.es.publish.write_bytes=2760 libbeat.publisher.published_events=6 libbeat.es.publish.read_bytes=2015
+2016-11-27T00:49:41+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:19:41.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 258,
+  "memoryUsage": 404772088,
+  "type": "liferaybeat"
+}
+2016-11-27T00:49:41+05:30 INFO Event sent
+2016-11-27T00:49:42+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:49:42+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.426419ms.
+2016-11-27T00:49:42+05:30 DBG  send completed
+2016-11-27T00:49:46+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:19:46.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 259,
+  "memoryUsage": 404849256,
+  "type": "liferaybeat"
+}
+2016-11-27T00:49:46+05:30 INFO Event sent
+2016-11-27T00:49:47+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:49:47+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.364641ms.
+2016-11-27T00:49:47+05:30 DBG  send completed
+2016-11-27T00:49:51+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:19:51.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 260,
+  "memoryUsage": 404895440,
+  "type": "liferaybeat"
+}
+2016-11-27T00:49:51+05:30 INFO Event sent
+2016-11-27T00:49:52+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:49:52+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.464244ms.
+2016-11-27T00:49:52+05:30 DBG  send completed
+2016-11-27T00:49:56+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:19:56.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 261,
+  "memoryUsage": 405193736,
+  "type": "liferaybeat"
+}
+2016-11-27T00:49:56+05:30 INFO Event sent
+2016-11-27T00:49:57+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:49:57+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.479827ms.
+2016-11-27T00:49:57+05:30 DBG  send completed
+2016-11-27T00:50:01+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:20:01.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 262,
+  "memoryUsage": 405193736,
+  "type": "liferaybeat"
+}
+2016-11-27T00:50:01+05:30 INFO Event sent
+2016-11-27T00:50:02+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:50:02+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.780216ms.
+2016-11-27T00:50:02+05:30 DBG  send completed
+2016-11-27T00:50:06+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:20:06.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 263,
+  "memoryUsage": 405655336,
+  "type": "liferaybeat"
+}
+2016-11-27T00:50:06+05:30 INFO Event sent
+2016-11-27T00:50:07+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:50:07+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.792226ms.
+2016-11-27T00:50:07+05:30 DBG  send completed
+2016-11-27T00:50:11+05:30 INFO Non-zero metrics in the last 30s: libbeat.publisher.messages_in_worker_queues=6 libbeat.es.publish.read_bytes=2017 libbeat.es.call_count.PublishEvents=6 libbeat.es.published_and_acked_events=6 libbeat.es.publish.write_bytes=2760 libbeat.publisher.published_events=6
+2016-11-27T00:50:11+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:20:11.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 264,
+  "memoryUsage": 405695568,
+  "type": "liferaybeat"
+}
+2016-11-27T00:50:11+05:30 INFO Event sent
+2016-11-27T00:50:12+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:50:12+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.908496ms.
+2016-11-27T00:50:12+05:30 DBG  send completed
+2016-11-27T00:50:16+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:20:16.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 265,
+  "memoryUsage": 405761128,
+  "type": "liferaybeat"
+}
+2016-11-27T00:50:16+05:30 INFO Event sent
+2016-11-27T00:50:17+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:50:17+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.69989ms.
+2016-11-27T00:50:17+05:30 DBG  send completed
+2016-11-27T00:50:21+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:20:21.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 266,
+  "memoryUsage": 405805560,
+  "type": "liferaybeat"
+}
+2016-11-27T00:50:21+05:30 INFO Event sent
+2016-11-27T00:50:22+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:50:22+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 3.941896ms.
+2016-11-27T00:50:22+05:30 DBG  send completed
+2016-11-27T00:50:26+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:20:26.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 267,
+  "memoryUsage": 406279240,
+  "type": "liferaybeat"
+}
+2016-11-27T00:50:26+05:30 INFO Event sent
+2016-11-27T00:50:27+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:50:27+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 3.596394ms.
+2016-11-27T00:50:27+05:30 DBG  send completed
+2016-11-27T00:50:31+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:20:31.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 268,
+  "memoryUsage": 406416784,
+  "type": "liferaybeat"
+}
+2016-11-27T00:50:31+05:30 INFO Event sent
+2016-11-27T00:50:32+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:50:32+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.86459ms.
+2016-11-27T00:50:32+05:30 DBG  send completed
+2016-11-27T00:50:36+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:20:36.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 269,
+  "memoryUsage": 406846080,
+  "type": "liferaybeat"
+}
+2016-11-27T00:50:36+05:30 INFO Event sent
+2016-11-27T00:50:37+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:50:37+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.260017ms.
+2016-11-27T00:50:37+05:30 DBG  send completed
+2016-11-27T00:50:41+05:30 INFO Non-zero metrics in the last 30s: libbeat.publisher.messages_in_worker_queues=6 libbeat.es.call_count.PublishEvents=6 libbeat.es.publish.write_bytes=2760 libbeat.publisher.published_events=6 libbeat.es.publish.read_bytes=2014 libbeat.es.published_and_acked_events=6
+2016-11-27T00:50:41+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:20:41.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 270,
+  "memoryUsage": 407003616,
+  "type": "liferaybeat"
+}
+2016-11-27T00:50:41+05:30 INFO Event sent
+2016-11-27T00:50:42+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:50:42+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 3.608191ms.
+2016-11-27T00:50:42+05:30 DBG  send completed
+2016-11-27T00:50:46+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:20:46.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 271,
+  "memoryUsage": 407103120,
+  "type": "liferaybeat"
+}
+2016-11-27T00:50:46+05:30 INFO Event sent
+2016-11-27T00:50:47+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:50:47+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 27.018553ms.
+2016-11-27T00:50:47+05:30 DBG  send completed
+2016-11-27T00:50:51+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:20:51.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 272,
+  "memoryUsage": 407172800,
+  "type": "liferaybeat"
+}
+2016-11-27T00:50:51+05:30 INFO Event sent
+2016-11-27T00:50:52+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:50:52+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 25.165582ms.
+2016-11-27T00:50:52+05:30 DBG  send completed
+2016-11-27T00:50:56+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:20:56.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 273,
+  "memoryUsage": 407538024,
+  "type": "liferaybeat"
+}
+2016-11-27T00:50:56+05:30 INFO Event sent
+2016-11-27T00:50:57+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:50:57+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.093581ms.
+2016-11-27T00:50:57+05:30 DBG  send completed
+2016-11-27T00:51:01+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:21:01.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 274,
+  "memoryUsage": 407642328,
+  "type": "liferaybeat"
+}
+2016-11-27T00:51:01+05:30 INFO Event sent
+2016-11-27T00:51:02+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:51:02+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 28.815713ms.
+2016-11-27T00:51:02+05:30 DBG  send completed
+2016-11-27T00:51:06+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:21:06.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 275,
+  "memoryUsage": 408027576,
+  "type": "liferaybeat"
+}
+2016-11-27T00:51:06+05:30 INFO Event sent
+2016-11-27T00:51:07+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:51:07+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 23.781492ms.
+2016-11-27T00:51:07+05:30 DBG  send completed
+2016-11-27T00:51:11+05:30 INFO Non-zero metrics in the last 30s: libbeat.es.call_count.PublishEvents=6 libbeat.es.publish.read_bytes=2022 libbeat.es.publish.write_bytes=2760 libbeat.publisher.messages_in_worker_queues=6 libbeat.es.published_and_acked_events=6 libbeat.publisher.published_events=6
+2016-11-27T00:51:11+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:21:11.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 276,
+  "memoryUsage": 408061832,
+  "type": "liferaybeat"
+}
+2016-11-27T00:51:11+05:30 INFO Event sent
+2016-11-27T00:51:12+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:51:12+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.008508ms.
+2016-11-27T00:51:12+05:30 DBG  send completed
+2016-11-27T00:51:16+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:21:16.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 277,
+  "memoryUsage": 408061832,
+  "type": "liferaybeat"
+}
+2016-11-27T00:51:16+05:30 INFO Event sent
+2016-11-27T00:51:17+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:51:17+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.962876ms.
+2016-11-27T00:51:17+05:30 DBG  send completed
+2016-11-27T00:51:21+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:21:21.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 278,
+  "memoryUsage": 408099192,
+  "type": "liferaybeat"
+}
+2016-11-27T00:51:21+05:30 INFO Event sent
+2016-11-27T00:51:22+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:51:22+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.472516ms.
+2016-11-27T00:51:22+05:30 DBG  send completed
+2016-11-27T00:51:26+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:21:26.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 279,
+  "memoryUsage": 408432088,
+  "type": "liferaybeat"
+}
+2016-11-27T00:51:26+05:30 INFO Event sent
+2016-11-27T00:51:27+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:51:27+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.427299ms.
+2016-11-27T00:51:27+05:30 DBG  send completed
+2016-11-27T00:51:31+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:21:31.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 280,
+  "memoryUsage": 408444416,
+  "type": "liferaybeat"
+}
+2016-11-27T00:51:31+05:30 INFO Event sent
+2016-11-27T00:51:32+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:51:32+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.817395ms.
+2016-11-27T00:51:32+05:30 DBG  send completed
+2016-11-27T00:51:36+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:21:36.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 281,
+  "memoryUsage": 408859016,
+  "type": "liferaybeat"
+}
+2016-11-27T00:51:36+05:30 INFO Event sent
+2016-11-27T00:51:37+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:51:37+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.297164ms.
+2016-11-27T00:51:37+05:30 DBG  send completed
+2016-11-27T00:51:41+05:30 INFO Non-zero metrics in the last 30s: libbeat.es.publish.read_bytes=2011 libbeat.es.published_and_acked_events=6 libbeat.es.call_count.PublishEvents=6 libbeat.publisher.published_events=6 libbeat.es.publish.write_bytes=2760 libbeat.publisher.messages_in_worker_queues=6
+2016-11-27T00:51:41+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:21:41.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 282,
+  "memoryUsage": 409034048,
+  "type": "liferaybeat"
+}
+2016-11-27T00:51:41+05:30 INFO Event sent
+2016-11-27T00:51:42+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:51:42+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.828144ms.
+2016-11-27T00:51:42+05:30 DBG  send completed
+2016-11-27T00:51:46+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:21:46.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 283,
+  "memoryUsage": 409034048,
+  "type": "liferaybeat"
+}
+2016-11-27T00:51:46+05:30 INFO Event sent
+2016-11-27T00:51:47+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:51:47+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.323695ms.
+2016-11-27T00:51:47+05:30 DBG  send completed
+2016-11-27T00:51:51+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:21:51.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 284,
+  "memoryUsage": 409202552,
+  "type": "liferaybeat"
+}
+2016-11-27T00:51:51+05:30 INFO Event sent
+2016-11-27T00:51:52+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:51:52+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.052006ms.
+2016-11-27T00:51:52+05:30 DBG  send completed
+2016-11-27T00:51:56+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:21:56.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 285,
+  "memoryUsage": 409563696,
+  "type": "liferaybeat"
+}
+2016-11-27T00:51:56+05:30 INFO Event sent
+2016-11-27T00:51:57+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:51:57+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.342973ms.
+2016-11-27T00:51:57+05:30 DBG  send completed
+2016-11-27T00:52:01+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:22:01.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 286,
+  "memoryUsage": 409587544,
+  "type": "liferaybeat"
+}
+2016-11-27T00:52:01+05:30 INFO Event sent
+2016-11-27T00:52:02+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:52:02+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.248888ms.
+2016-11-27T00:52:02+05:30 DBG  send completed
+2016-11-27T00:52:06+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:22:06.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 287,
+  "memoryUsage": 409920664,
+  "type": "liferaybeat"
+}
+2016-11-27T00:52:06+05:30 INFO Event sent
+2016-11-27T00:52:07+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:52:07+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.61371ms.
+2016-11-27T00:52:07+05:30 DBG  send completed
+2016-11-27T00:52:11+05:30 INFO Non-zero metrics in the last 30s: libbeat.publisher.messages_in_worker_queues=6 libbeat.es.published_and_acked_events=6 libbeat.es.publish.read_bytes=2009 libbeat.publisher.published_events=6 libbeat.es.call_count.PublishEvents=6 libbeat.es.publish.write_bytes=2760
+2016-11-27T00:52:11+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:22:11.841Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 288,
+  "memoryUsage": 409920920,
+  "type": "liferaybeat"
+}
+2016-11-27T00:52:11+05:30 INFO Event sent
+2016-11-27T00:52:12+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:52:12+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.842603ms.
+2016-11-27T00:52:12+05:30 DBG  send completed
+2016-11-27T00:52:16+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:22:16.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 289,
+  "memoryUsage": 410000576,
+  "type": "liferaybeat"
+}
+2016-11-27T00:52:16+05:30 INFO Event sent
+2016-11-27T00:52:17+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:52:17+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.091581ms.
+2016-11-27T00:52:17+05:30 DBG  send completed
+2016-11-27T00:52:21+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:22:21.836Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 290,
+  "memoryUsage": 410190352,
+  "type": "liferaybeat"
+}
+2016-11-27T00:52:21+05:30 INFO Event sent
+2016-11-27T00:52:22+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:52:22+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.176059ms.
+2016-11-27T00:52:22+05:30 DBG  send completed
+2016-11-27T00:52:26+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:22:26.838Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 291,
+  "memoryUsage": 410565984,
+  "type": "liferaybeat"
+}
+2016-11-27T00:52:26+05:30 INFO Event sent
+2016-11-27T00:52:27+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:52:27+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 6.895399ms.
+2016-11-27T00:52:27+05:30 DBG  send completed
+2016-11-27T00:52:31+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:22:31.839Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 292,
+  "memoryUsage": 410600240,
+  "type": "liferaybeat"
+}
+2016-11-27T00:52:31+05:30 INFO Event sent
+2016-11-27T00:52:32+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:52:32+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.830615ms.
+2016-11-27T00:52:32+05:30 DBG  send completed
+2016-11-27T00:52:36+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:22:36.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 293,
+  "memoryUsage": 411048984,
+  "type": "liferaybeat"
+}
+2016-11-27T00:52:36+05:30 INFO Event sent
+2016-11-27T00:52:37+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:52:37+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 5.191196ms.
+2016-11-27T00:52:37+05:30 DBG  send completed
+2016-11-27T00:52:41+05:30 INFO Non-zero metrics in the last 30s: libbeat.es.call_count.PublishEvents=6 libbeat.es.publish.read_bytes=2010 libbeat.es.published_and_acked_events=6 libbeat.publisher.messages_in_worker_queues=6 libbeat.es.publish.write_bytes=2760 libbeat.publisher.published_events=6
+2016-11-27T00:52:41+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:22:41.837Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 294,
+  "memoryUsage": 411125272,
+  "type": "liferaybeat"
+}
+2016-11-27T00:52:41+05:30 INFO Event sent
+2016-11-27T00:52:42+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:52:42+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 3.967529ms.
+2016-11-27T00:52:42+05:30 DBG  send completed
+2016-11-27T00:52:46+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:22:46.842Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 295,
+  "memoryUsage": 411458080,
+  "type": "liferaybeat"
+}
+2016-11-27T00:52:46+05:30 INFO Event sent
+2016-11-27T00:52:47+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:52:47+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.906447ms.
+2016-11-27T00:52:47+05:30 DBG  send completed
+2016-11-27T00:52:51+05:30 DBG  Publish: {
+  "@timestamp": "2016-11-26T19:22:51.840Z",
+  "beat": {
+    "hostname": "ATPL-MAC-14.local",
+    "name": "ATPL-MAC-14.local",
+    "version": "6.0.0-alpha1"
+  },
+  "counter": 296,
+  "memoryUsage": 411458336,
+  "type": "liferaybeat"
+}
+2016-11-27T00:52:51+05:30 INFO Event sent
+2016-11-27T00:52:52+05:30 DBG  output worker: publish 1 events
+2016-11-27T00:52:52+05:30 DBG  PublishEvents: 1 events have been  published to elasticsearch in 4.564856ms.
+2016-11-27T00:52:52+05:30 DBG  send completed
+2016-11-27T00:52:52+05:30 DBG  Received sigterm/sigint, stopping
+2016-11-27T00:52:52+05:30 INFO Total non-zero values:  libbeat.es.call_count.PublishEvents=296 libbeat.es.publish.write_bytes=136301 libbeat.publisher.messages_in_worker_queues=296 libbeat.es.publish.read_bytes=99770 libbeat.publisher.published_events=296 libbeat.es.published_and_acked_events=296
+2016-11-27T00:52:52+05:30 INFO Uptime: 24m41.360331878s
+2016-11-27T00:52:52+05:30 INFO liferaybeat stopped.
